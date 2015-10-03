@@ -1,0 +1,21 @@
+Exercise 1: A simple code/ program
+
+-         1(a) Which will take input a text string from a file.
+
+-         1(b)  If the input string/text has anchor tag or link, extract the link and append it to a list of links.
+
+-          1(c) If the string has HTML tags, strip the tags and printout the remaining string.
+
+-          1(d) From each link make a separate file.
+
+-          1(e) Count the occurrences of each word (except common words like ‘the’ ‘a’ ‘and’ etc.) in each file.
+
+
+
+Exercise 2: To develop a basic Web crawler that
+
+2(a) Take a seed URL from user.
+
+2(b) Keep on downloading the pages and extract URLs  from those pages up to a certain depth.
+
+2(c)For every visit of page it create a list of keywords on that page.

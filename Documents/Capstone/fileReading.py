@@ -1,10 +1,11 @@
 from bs4 import BeautifulSoup
 from sys import argv
-from os.path import exists
 from urlparse import urlparse, urlunparse
 from keywordFreq import countWords
+from pprint import pprint
 import urllib2
 import re
+import os
 
 keywordFreqFile = "keywordFreq.txt"
 
@@ -17,9 +18,10 @@ def extractLinks(soup, extractedText):
     anchorList = []
     for tag in tags:
         link = tag.get('href')
-        if(link!=None and link!="javascript:void(0);" and link!="#"):
+        if(link!=None and link!="javascript:void(0);" and link[:1]!="#"):
             anchorList.append(link)
     anchorList += re.findall(r'(https?://[^\s]+)', extractedText)
+    # not picking www.example.com or google.com/
     set_anchorList = set(anchorList)
     anchorList = list(set_anchorList)
     return anchorList
@@ -35,6 +37,11 @@ def validateLinks(anchorList,parent):
     newParent=str()
     newScheme = str()
     validAnchorList = []
+    # expected formats
+    # www.example.com ( urlparse put this domain into path not netloc )
+    # example.com
+    # http://example.com
+    # https://example.com
     for link in anchorList:
         parsedLink = urlparse(link)
         if not parsedLink.scheme:
@@ -53,40 +60,40 @@ def validateLinks(anchorList,parent):
 #writing keywordCount in a seperate file    
 def keywordFrequencyInFile(fileName):
     countDict = countWords(fileName)
-    f = open(keywordFreqFile,'a')
-    f.write("FileName: "+fileName+"\n")
-    f.write(str(countDict))
-    f.write("\n\n")
-    f.close()  
+    with open(keywordFreqFile, 'a') as out:
+        out.write("FileName: "+fileName+"\n")
+        pprint(dict(countDict), stream=out)
+        out.write('\n\n')
 
 def openAllLinks(anchorList):
-    i = 1
     for link in anchorList:
         try:
             response = urllib2.urlopen(link)
             html = response.read()
             text = extractText(createSoup(html))
-            f = open(str(i),'w')
+            f = open('results/'+str(link.replace('/','.')),'w')
             f.write(text)
             f.close()
-            keywordFrequencyInFile(str(i))
-            i += 1
+            keywordFrequencyInFile('results/'+str(link.replace('/','.')))
         except :
             continue
 
 def main():
     script,srcFile,parentDomain = argv
-    if (exists(srcFile)):
+    if (os.path.exists(srcFile)):
         src = open(srcFile)
         parent = parentDomain
         html = src.read()
         soup = createSoup(html)
         extractedText = extractText(soup)
-        print extractedText
+        if not os.path.exists('results'):
+            os.makedirs('results')
+        f = open('results/sourcetext.txt','w')
+        f.write(extractedText)
+        f.close()
         anchorList = validateLinks(extractLinks(soup,extractedText),parent)
-        for anchor in anchorList:
-            print anchor
-            print "\n"
+        with open('results/extractedLinks.txt', 'wt') as out:
+            pprint(anchorList, stream=out)
         openAllLinks(anchorList)
         src.close()
     else:

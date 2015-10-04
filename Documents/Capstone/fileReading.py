@@ -2,11 +2,14 @@ from bs4 import BeautifulSoup
 from sys import argv
 from os.path import exists
 from urlparse import urlparse, urlunparse
+from keywordFreq import countWords
 import urllib2
 import re
 import nltk
 
-parent = "www.columbia.edu"
+parent = "www.google.com"
+
+keywordFreqFile = "keywordFreq.txt"
 
 
 def createSoup(html):
@@ -44,14 +47,23 @@ def validateLinks(anchorList):
                 newParent = parent
             newScheme = "https"
             if not newParent:
-                newLink = (newScheme) + parsedLink[1:]
+                newLink = (newScheme,) + parsedLink[1:]
             else:
                 newLink = (newScheme, newParent) + parsedLink[2:]
             validAnchorList.append(urlunparse(newLink))
         else:
             validAnchorList.append(link)
-    return validAnchorList        
-    
+    return validAnchorList    
+ 
+#writing keywordCount in a seperate file    
+def keywordFrequencyInFile(fileName):
+    countDict = countWords(fileName)
+    f = open(keywordFreqFile,'a')
+    f.write("FileName: "+fileName+"\n")
+    f.write(str(countDict))
+    f.write("\n\n")
+    f.close()  
+
 def openAllLinks(anchorList):
     i = 1
     for link in anchorList:
@@ -61,9 +73,10 @@ def openAllLinks(anchorList):
             text = extractText(createSoup(html))
             f = open(str(i),'w')
             f.write(text)
-            i += 1
             f.close()
-        except urllib2.HTTPError as err:
+            keywordFrequencyInFile(str(i))
+            i += 1
+        except :
             continue
 
 def main():

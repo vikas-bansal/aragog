@@ -5,12 +5,8 @@ from urlparse import urlparse, urlunparse
 from keywordFreq import countWords
 import urllib2
 import re
-import nltk
-
-parent = "www.google.com"
 
 keywordFreqFile = "keywordFreq.txt"
-
 
 def createSoup(html):
     return BeautifulSoup(html,from_encoding="utf-8")    
@@ -35,8 +31,7 @@ def extractText(soup):
         script.extract()
     return soup.get_text().encode("utf-8")
 
-def validateLinks(anchorList):
-    global parent
+def validateLinks(anchorList,parent):
     newParent=str()
     newScheme = str()
     validAnchorList = []
@@ -80,14 +75,15 @@ def openAllLinks(anchorList):
             continue
 
 def main():
-    script,srcFile = argv
+    script,srcFile,parentDomain = argv
     if (exists(srcFile)):
         src = open(srcFile)
+        parent = parentDomain
         html = src.read()
         soup = createSoup(html)
         extractedText = extractText(soup)
         print extractedText
-        anchorList = validateLinks(extractLinks(soup,extractedText))
+        anchorList = validateLinks(extractLinks(soup,extractedText),parent)
         for anchor in anchorList:
             print anchor
             print "\n"

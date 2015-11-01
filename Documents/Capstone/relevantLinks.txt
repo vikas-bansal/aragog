@@ -1,0 +1,2061 @@
+
+Link: http://pec.ac.in/~pecac/new/
+Word: abdul	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: more	 Count: 6
+
+Link: http://pec.ac.in/~pecac/new/cse_about/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/aero-b-e-even-semester/
+Word: jan	 Count: 3
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/administration/rules-guidelines/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/proforma_computerperipherals.pdf
+Word: om	 Count: 4
+Word: anu	 Count: 1
+Word: de	 Count: 5
+Word: dia	 Count: 1
+Word: vaz	 Count: 1
+Word: roy	 Count: 1
+Word: bey	 Count: 1
+Word: sa	 Count: 9
+Word: po	 Count: 12
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/telephone-bills-reimbursement-performa.pdf
+Word: om	 Count: 1
+Word: de	 Count: 1
+Word: po	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/npe86.pdf
+Word: om	 Count: 9
+Word: kom	 Count: 1
+Word: de	 Count: 10
+Word: sha	 Count: 1
+Word: sim	 Count: 1
+Word: sa	 Count: 8
+Word: po	 Count: 8
+Word: mao	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/library/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: more	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/?p=189
+Word: kumar	 Count: 1
+Word: mangal	 Count: 1
+Word: sharma	 Count: 1
+Word: samir	 Count: 1
+Word: umesh	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 2
+Word: batra	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 3
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/institute-2/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/collaborations-2/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/key-activities/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/common_time_table_15161.pdf
+Word: om	 Count: 1
+Word: sa	 Count: 1
+Word: po	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/me-even-semester-electrical/
+Word: kumar	 Count: 2
+Word: garg	 Count: 1
+Word: khanna	 Count: 1
+Word: jan	 Count: 2
+Word: master	 Count: 1
+Word: kaur	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 2
+Word: narayan	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/e-notice-metallurgy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/honours-awards/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: singh	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/me-even-semester-materials/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academic-calendar-2013-14/
+Word: jan	 Count: 14
+Word: date	 Count: 13
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: sa	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/e-notice-mechanical/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/institute-2/contacts-institute/
+Word: kumar	 Count: 1
+Word: mangal	 Count: 1
+Word: sharma	 Count: 1
+Word: samir	 Count: 1
+Word: umesh	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 2
+Word: batra	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 3
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/hostels/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: chawla	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/consultancy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/spo_sports-facilities/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pro_end-term/
+Word: jawalkar	 Count: 4
+Word: suman	 Count: 7
+Word: kumar	 Count: 1
+Word: sandeep	 Count: 1
+Word: verma	 Count: 2
+Word: suri	 Count: 2
+Word: nath	 Count: 3
+Word: master	 Count: 1
+Word: date	 Count: 3
+Word: sem	 Count: 2
+Word: singh	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/me-even-semester-production/
+Word: jawalkar	 Count: 2
+Word: suman	 Count: 7
+Word: suri	 Count: 5
+Word: jan	 Count: 1
+Word: master	 Count: 1
+Word: prajapati	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/academics/postgraduate/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/RevisedMErules09.pdf
+Word: om	 Count: 2
+Word: de	 Count: 1
+Word: roy	 Count: 1
+Word: sa	 Count: 5
+Word: po	 Count: 4
+Word: mao	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/iqac/contact-us/
+Word: arora	 Count: 1
+Word: khanna	 Count: 1
+Word: master	 Count: 1
+Word: jain	 Count: 1
+Word: kedia	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/announcements-for-short-term-courses-during-summer-vacation/
+Word: jindal	 Count: 1
+Word: kumar	 Count: 2
+Word: shilpa	 Count: 1
+Word: singh	 Count: 3
+Word: kaur	 Count: 2
+Word: saini	 Count: 1
+Word: verma	 Count: 1
+Word: sandhu	 Count: 1
+Word: khanna	 Count: 1
+Word: lata	 Count: 1
+Word: arora	 Count: 1
+Word: date	 Count: 4
+Word: master	 Count: 1
+Word: sudesh	 Count: 1
+Word: suri	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2015/05/Programme-Schedule.pdf
+Word: sa	 Count: 3
+Word: de	 Count: 3
+Word: om	 Count: 5
+Word: po	 Count: 5
+
+Link: http://pec.ac.in/~pecac/new/cse_curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Comp.4th-sem1.pdf
+Word: om	 Count: 5
+Word: de	 Count: 4
+Word: po	 Count: 1
+Word: sha	 Count: 1
+Word: sa	 Count: 6
+Word: deb	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=950
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/eec_6th-semester-2/
+Word: kumar	 Count: 1
+Word: bali	 Count: 1
+Word: gupta	 Count: 1
+Word: samuel	 Count: 1
+Word: tata	 Count: 2
+Word: master	 Count: 1
+Word: das	 Count: 3
+Word: sem	 Count: 2
+Word: ray	 Count: 1
+Word: pal	 Count: 1
+Word: more	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/?p=8522
+Word: jawalkar	 Count: 1
+Word: suman	 Count: 1
+Word: verma	 Count: 1
+Word: suri	 Count: 1
+Word: goud	 Count: 1
+Word: nath	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/profile?profile_id=151/
+Word: goud	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/courses-conferences/
+Word: kumar	 Count: 1
+Word: samir	 Count: 1
+Word: neena	 Count: 2
+Word: gupta	 Count: 2
+Word: kaur	 Count: 1
+Word: batra	 Count: 2
+Word: jan	 Count: 2
+Word: satsangi	 Count: 2
+Word: master	 Count: 1
+Word: jain	 Count: 1
+Word: prakash	 Count: 2
+Word: sem	 Count: 2
+Word: neelam	 Count: 2
+Word: singh	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/words-of-hod/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: chawla	 Count: 1
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mec_about-department/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/iqac/goals-and-functions/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pecfest-2015/
+Word: sem	 Count: 2
+Word: vishal	 Count: 1
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/overview/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/financial-assistance-to-students-for-attending-conferences/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/be-odd-semester-electrical/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=1896
+Word: lall	 Count: 1
+Word: mangal	 Count: 1
+Word: samir	 Count: 1
+Word: dubey	 Count: 1
+Word: kumar	 Count: 5
+Word: kaur	 Count: 1
+Word: manna	 Count: 1
+Word: sandeep	 Count: 1
+Word: satsangi	 Count: 1
+Word: master	 Count: 1
+Word: soni	 Count: 1
+Word: prajapati	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 4
+Word: yadav	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/profile/?profile_id=91/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: satsangi	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/e-notice-electrical/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/ele_curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/ele_4th-semester-3-2/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academics/academic-overview/
+Word: kumar	 Count: 2
+Word: saini	 Count: 2
+Word: raj	 Count: 1
+Word: singh	 Count: 1
+Word: upender	 Count: 1
+Word: master	 Count: 3
+Word: sudesh	 Count: 1
+Word: sem	 Count: 2
+Word: yadav	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/students-2/nss/
+Word: samir	 Count: 1
+Word: ali	 Count: 1
+Word: swami	 Count: 1
+Word: kaur	 Count: 1
+Word: sapra	 Count: 1
+Word: de	 Count: 1
+Word: bhatti	 Count: 1
+Word: master	 Count: 2
+Word: dayal	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 1
+Word: more	 Count: 7
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/NSS1.jpg
+Word: om	 Count: 1
+Word: sa	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/institute-functionaries/
+Word: jindal	 Count: 3
+Word: mangal	 Count: 1
+Word: samir	 Count: 2
+Word: sood	 Count: 1
+Word: gupta	 Count: 2
+Word: manna	 Count: 1
+Word: meena	 Count: 2
+Word: umesh	 Count: 1
+Word: arora	 Count: 3
+Word: batra	 Count: 2
+Word: prajapati	 Count: 1
+Word: sem	 Count: 2
+Word: engineer	 Count: 1
+Word: sharma	 Count: 2
+Word: bhatia	 Count: 1
+Word: neena	 Count: 2
+Word: goel	 Count: 1
+Word: nath	 Count: 1
+Word: master	 Count: 1
+Word: singh	 Count: 15
+Word: narayan	 Count: 1
+Word: neelam	 Count: 1
+Word: lal	 Count: 3
+Word: kaur	 Count: 5
+Word: khanna	 Count: 1
+Word: alam	 Count: 2
+Word: satsangi	 Count: 1
+Word: mahajan	 Count: 5
+Word: rupali	 Count: 2
+Word: sudesh	 Count: 1
+Word: suri	 Count: 1
+Word: gambhir	 Count: 1
+Word: yadav	 Count: 2
+Word: bansal	 Count: 2
+Word: kumar	 Count: 4
+Word: suman	 Count: 1
+Word: sandhu	 Count: 1
+Word: jain	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pro_mid-term-1/
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mec_curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/5th-semester-2/
+Word: aggarwal	 Count: 1
+Word: sharma	 Count: 1
+Word: nag	 Count: 1
+Word: gupta	 Count: 2
+Word: goel	 Count: 1
+Word: behl	 Count: 1
+Word: tata	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 1
+Word: srinath	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/mechanical/faculty/mech_b-e-odd-semester/
+Word: kumar	 Count: 7
+Word: mangal	 Count: 1
+Word: sharma	 Count: 1
+Word: samir	 Count: 2
+Word: dubey	 Count: 1
+Word: lall	 Count: 1
+Word: soni	 Count: 4
+Word: parul	 Count: 1
+Word: som	 Count: 5
+Word: satsangi	 Count: 3
+Word: grover	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 1
+Word: kaur	 Count: 3
+Word: prajapati	 Count: 2
+Word: sem	 Count: 6
+Word: singh	 Count: 10
+Word: yadav	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/norms-forms/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Approval_No_Form-14-15.pdf
+Word: sa	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Projectleave4.pdf
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/students-2/notice/
+Word: lal	 Count: 1
+Word: gill	 Count: 1
+Word: raj	 Count: 1
+Word: charu	 Count: 9
+Word: singh	 Count: 2
+Word: date	 Count: 17
+Word: sachdeva	 Count: 7
+Word: master	 Count: 1
+Word: gopal	 Count: 1
+Word: puri	 Count: 9
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Affidavits-format-2.pdf
+Word: kak	 Count: 1
+Word: om	 Count: 1
+Word: de	 Count: 2
+Word: mao	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=8116
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/08/Non-Technical-Staff-Satisfactory-Survey.doc
+Word: de	 Count: 1
+Word: ram	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/08/Technical-Staff-Satisfactory-Survey.doc
+Word: de	 Count: 1
+Word: ram	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/aero-end-term/
+Word: date	 Count: 1
+Word: sem	 Count: 3
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/contact-dean-sa/
+Word: gupta	 Count: 1
+Word: prakash	 Count: 1
+Word: meena	 Count: 1
+Word: mishra	 Count: 1
+Word: sem	 Count: 2
+Word: sajal	 Count: 1
+Word: bhattacharjee	 Count: 1
+Word: sharma	 Count: 1
+Word: sahni	 Count: 2
+Word: doctor	 Count: 1
+Word: vandana	 Count: 2
+Word: master	 Count: 1
+Word: singh	 Count: 4
+Word: neelam	 Count: 1
+Word: sehgal	 Count: 1
+Word: kaur	 Count: 2
+Word: alam	 Count: 1
+Word: mahajan	 Count: 1
+Word: gambhir	 Count: 1
+Word: bansal	 Count: 1
+Word: kumar	 Count: 2
+Word: devi	 Count: 2
+Word: jain	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/computer-centre/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/softwares/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/open-source-software/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/be-odd-semester-cse/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=1786
+Word: lal	 Count: 1
+Word: kumar	 Count: 5
+Word: sharma	 Count: 2
+Word: goyal	 Count: 1
+Word: alam	 Count: 1
+Word: sood	 Count: 1
+Word: gupta	 Count: 1
+Word: verma	 Count: 1
+Word: sandhu	 Count: 1
+Word: khanna	 Count: 1
+Word: umesh	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 1
+Word: sarita	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/profile?profile_id=55/
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: alam	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/me-even-semester-cse/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/be-odd-semester-civil/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/web-master/
+Word: sem	 Count: 2
+Word: master	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/e-notice-tpo/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/metta_curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/6th-semester-3/
+Word: sreenivasan	 Count: 1
+Word: gupta	 Count: 1
+Word: raj	 Count: 1
+Word: deep	 Count: 2
+Word: parmar	 Count: 1
+Word: sem	 Count: 3
+Word: ray	 Count: 1
+Word: sharma	 Count: 1
+Word: prabhakar	 Count: 1
+Word: tata	 Count: 1
+Word: master	 Count: 1
+Word: mukherjee	 Count: 1
+Word: singh	 Count: 1
+Word: engineer	 Count: 1
+Word: more	 Count: 1
+Word: iman	 Count: 1
+Word: dave	 Count: 1
+Word: tailor	 Count: 1
+Word: upadhyaya	 Count: 1
+Word: butt	 Count: 1
+Word: jain	 Count: 1
+Word: anand	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/e-notice-civil/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/cse_lab/
+Word: sony	 Count: 2
+Word: sem	 Count: 2
+Word: ram	 Count: 11
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/eec-mid-term-1/
+Word: date	 Count: 2
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/in-house-projects/
+Word: jindal	 Count: 2
+Word: mangal	 Count: 2
+Word: sah	 Count: 1
+Word: gupta	 Count: 3
+Word: prakash	 Count: 1
+Word: mittal	 Count: 2
+Word: batra	 Count: 4
+Word: mohan	 Count: 2
+Word: prajapati	 Count: 1
+Word: sem	 Count: 2
+Word: sharma	 Count: 4
+Word: neena	 Count: 3
+Word: master	 Count: 1
+Word: kedia	 Count: 3
+Word: singh	 Count: 7
+Word: bansal	 Count: 1
+Word: neelam	 Count: 1
+Word: walia	 Count: 2
+Word: lal	 Count: 1
+Word: kaur	 Count: 2
+Word: mahajan	 Count: 1
+Word: chauhan	 Count: 1
+Word: kumar	 Count: 1
+Word: chand	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/inhouseprojectform2.pdf
+Word: sa	 Count: 2
+Word: om	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/
+Word: jawalkar	 Count: 2
+Word: sharma	 Count: 1
+Word: jain	 Count: 1
+Word: randhawa	 Count: 3
+Word: suman	 Count: 6
+Word: verma	 Count: 1
+Word: suri	 Count: 3
+Word: goud	 Count: 1
+Word: nath	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 2
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 4
+Word: walia	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/metta_about/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/aero_course-scheme/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/research-gps/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mandatory-disclosure/notice/
+Word: guru	 Count: 1
+Word: trikha	 Count: 1
+Word: jan	 Count: 2
+Word: master	 Count: 1
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Performa-for-CAS-20131.doc
+Word: om	 Count: 19
+Word: loy	 Count: 1
+Word: de	 Count: 8
+Word: raj	 Count: 1
+Word: po	 Count: 17
+Word: kar	 Count: 1
+Word: sem	 Count: 1
+Word: sur	 Count: 1
+Word: huq	 Count: 1
+Word: date	 Count: 11
+Word: pai	 Count: 1
+Word: sa	 Count: 14
+Word: bai	 Count: 1
+Word: bir	 Count: 2
+Word: mal	 Count: 1
+Word: ray	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mandatory-disclosure/
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 2
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/credits/
+Word: kumar	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: engineer	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/copyright/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/alumni-industry/
+Word: kumar	 Count: 1
+Word: bhatia	 Count: 1
+Word: dhillon	 Count: 1
+Word: master	 Count: 1
+Word: kedia	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/11/EXPERT-LECTURE-ON-MAGNETIC-RECORDING-RESEARCH.pdf
+Word: dey	 Count: 1
+Word: din	 Count: 1
+Word: dua	 Count: 1
+Word: de	 Count: 3
+Word: dia	 Count: 1
+Word: dib	 Count: 1
+Word: nain	 Count: 1
+Word: om	 Count: 8
+Word: sa	 Count: 4
+Word: kari	 Count: 1
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/11/Expert-lecture-on-Big-Insight-from-Big-Data-delivered-by-Dr.-Paramveer-Dhillon-on-19th-January-2015..docx
+Word: tlau	 Count: 1
+Word: po	 Count: 23
+Word: de	 Count: 17
+Word: om	 Count: 17
+Word: dev	 Count: 2
+Word: dia	 Count: 1
+Word: roy	 Count: 1
+Word: ain	 Count: 2
+Word: sur	 Count: 1
+Word: sen	 Count: 1
+Word: sa	 Count: 6
+Word: bir	 Count: 1
+Word: deb	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mec_words-from-hod/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: manna	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/civ_laboratories/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/tenders-teqip/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/key-activity-funds-details/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/category/teqip-happenings/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: chawla	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Key_activities.pdf
+Word: om	 Count: 11
+Word: de	 Count: 6
+Word: sai	 Count: 1
+Word: bee	 Count: 1
+Word: sur	 Count: 1
+Word: sa	 Count: 8
+Word: bir	 Count: 1
+Word: po	 Count: 7
+
+Link: http://pec.ac.in/~pecac/new/aero_about/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/metta_consultancy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=927
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Civil-7th-sem.pdf
+Word: om	 Count: 6
+Word: de	 Count: 6
+Word: roy	 Count: 1
+Word: hor	 Count: 1
+Word: aly	 Count: 2
+Word: sa	 Count: 2
+Word: po	 Count: 8
+
+Link: http://pec.ac.in/~pecac/new/3rd-semester_be/
+Word: lal	 Count: 1
+Word: kumar	 Count: 2
+Word: thomas	 Count: 1
+Word: arora	 Count: 1
+Word: sahni	 Count: 1
+Word: biswas	 Count: 1
+Word: gupta	 Count: 2
+Word: de	 Count: 1
+Word: khanna	 Count: 1
+Word: pillai	 Count: 1
+Word: atom	 Count: 1
+Word: nag	 Count: 1
+Word: master	 Count: 1
+Word: jain	 Count: 1
+Word: bose	 Count: 2
+Word: chand	 Count: 1
+Word: sem	 Count: 2
+Word: mani	 Count: 1
+Word: mehta	 Count: 1
+Word: ray	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/administration/senate-members/
+Word: gill	 Count: 1
+Word: kumar	 Count: 4
+Word: sharma	 Count: 1
+Word: vashisht	 Count: 1
+Word: singh	 Count: 1
+Word: umesh	 Count: 1
+Word: master	 Count: 1
+Word: arora	 Count: 1
+Word: prajapati	 Count: 1
+Word: raina	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/?p=1876
+Word: kumar	 Count: 1
+Word: sharma	 Count: 1
+Word: jain	 Count: 1
+Word: neena	 Count: 1
+Word: gupta	 Count: 1
+Word: kaur	 Count: 1
+Word: neha	 Count: 1
+Word: prakash	 Count: 1
+Word: singh	 Count: 2
+Word: swati	 Count: 1
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: soni	 Count: 1
+Word: kedia	 Count: 1
+Word: kaushal	 Count: 1
+Word: shah	 Count: 1
+Word: neelam	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/even-semester?profile_id=110
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: singh	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/workshops/
+Word: lal	 Count: 1
+Word: kumar	 Count: 5
+Word: tank	 Count: 1
+Word: bhardwaj	 Count: 1
+Word: de	 Count: 1
+Word: pawan	 Count: 2
+Word: mall	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: pal	 Count: 1
+Word: singh	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/academic-calendar-2012-13/
+Word: jan	 Count: 17
+Word: date	 Count: 13
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: sa	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/iqac/aqar-reports/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/iqac/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/privacy-policy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mechanical/faculty/mech_b-e-even-semester/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/be-even-semester-civil/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/me-even-semester-electronics/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/csrc_key-areas/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/metta_laboratories/
+Word: sem	 Count: 3
+Word: master	 Count: 1
+Word: naskar	 Count: 1
+Word: bath	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/eec_about/
+Word: sem	 Count: 2
+Word: master	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/civ_consultancy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/human-resource-empowerment-programme/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/rules-procedures-for-undergraduate-programmes/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/new_GUIDELINES_for_Internship_Training.pdf
+Word: om	 Count: 10
+Word: nag	 Count: 1
+Word: de	 Count: 6
+Word: dib	 Count: 1
+Word: rai	 Count: 1
+Word: sa	 Count: 16
+Word: po	 Count: 12
+
+Link: http://pec.ac.in/~pecac/new/metta_course-scheme/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/m-e-industrial-materials-metallugry/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mech_end-term/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/asc-end-term/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/iqac/performas/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/PerformaA.pdf
+Word: sa	 Count: 4
+Word: sur	 Count: 1
+Word: po	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/elec_end-term/
+Word: kumar	 Count: 5
+Word: bhandari	 Count: 4
+Word: suman	 Count: 2
+Word: tilak	 Count: 4
+Word: sandeep	 Count: 4
+Word: suresh	 Count: 6
+Word: kaur	 Count: 14
+Word: ram	 Count: 4
+Word: garg	 Count: 4
+Word: khanna	 Count: 4
+Word: singh	 Count: 22
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: arora	 Count: 4
+Word: thakur	 Count: 4
+Word: date	 Count: 2
+Word: sem	 Count: 12
+Word: pal	 Count: 7
+Word: gambhir	 Count: 4
+Word: narayan	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/cse_consultancy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/csrc_mission-objectives/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/activities/
+Word: gupta	 Count: 1
+Word: neeraj	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: chaudhry	 Count: 1
+Word: singh	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/workshop-on-advances-in-information-security-february-24-25-2009-punjab-engineering-college-sector-12-chandigarh/
+Word: kumar	 Count: 2
+Word: kaushal	 Count: 3
+Word: brar	 Count: 3
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: george	 Count: 2
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-groups-as-per-ugc-thrust-areas/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/data-mining/
+Word: jindal	 Count: 13
+Word: gupta	 Count: 1
+Word: kaur	 Count: 1
+Word: verma	 Count: 1
+Word: richa	 Count: 1
+Word: master	 Count: 1
+Word: kiran	 Count: 3
+Word: rupali	 Count: 1
+Word: sem	 Count: 2
+Word: yadav	 Count: 6
+
+Link: http://pec.ac.in/~pecac/new/mech_mid-term-1/
+Word: date	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/asc-words-from-hod/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/category/asc/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: doctor	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/cse-end-term/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/Datesheet-End-TERM-Exams-141522.pdf
+Word: dey	 Count: 1
+Word: om	 Count: 13
+Word: de	 Count: 5
+Word: sha	 Count: 1
+Word: zou	 Count: 1
+Word: dar	 Count: 1
+Word: sa	 Count: 7
+Word: po	 Count: 19
+
+Link: http://pec.ac.in/~pecac/new/cse_course-scheme/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/m-e-computer-science/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/asc-consultancy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pec-student-bags-top-spot-in-oxford-contest-jan-2007/
+Word: jindal	 Count: 6
+Word: gupta	 Count: 1
+Word: jan	 Count: 2
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academic-calendar-for-even-semester-2014-15-14152/
+Word: jan	 Count: 5
+Word: date	 Count: 5
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/research-consultancy/sponsored-research/
+Word: jindal	 Count: 1
+Word: lal	 Count: 1
+Word: sarita	 Count: 1
+Word: tilak	 Count: 1
+Word: atom	 Count: 1
+Word: jan	 Count: 1
+Word: sharma	 Count: 2
+Word: master	 Count: 1
+Word: arora	 Count: 2
+Word: thakur	 Count: 1
+Word: prajapati	 Count: 1
+Word: sem	 Count: 2
+Word: walia	 Count: 1
+Word: neelam	 Count: 1
+Word: singh	 Count: 4
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Projectleave2.pdf
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/aero_curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Aero-5th-sem.pdf
+Word: koi	 Count: 1
+Word: om	 Count: 6
+Word: de	 Count: 8
+Word: po	 Count: 11
+Word: sa	 Count: 5
+Word: deb	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/e-notice-library/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/book-bank-for-m-e-students/
+Word: date	 Count: 3
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/time-table-3/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: narayan	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/book-bank-notice-for-be-and-me-all-classesall-categories/
+Word: date	 Count: 2
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pro_course-scheme/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: po	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/me-industrial-design/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/ele_words-from-hod/
+Word: kaur	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/category/electrical/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/me-odd-semester-electrical/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academic-calendar-for-odd-semester-2015-16-15161/
+Word: guru	 Count: 1
+Word: jan	 Count: 2
+Word: master	 Count: 1
+Word: gandhi	 Count: 1
+Word: date	 Count: 6
+Word: sem	 Count: 2
+Word: valmiki	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/students-2/clubs/
+Word: sehgal	 Count: 1
+Word: meena	 Count: 1
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: sem	 Count: 2
+Word: sajal	 Count: 1
+Word: singh	 Count: 1
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/student-counselling-cell/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: happy	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/academics/academic-policy/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academics/prospectus/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2013/12/Prospectus-2010-11.pdf
+Word: sah	 Count: 2
+Word: vig	 Count: 1
+Word: rao	 Count: 1
+Word: rob	 Count: 1
+Word: som	 Count: 1
+Word: rai	 Count: 1
+Word: aly	 Count: 1
+Word: sem	 Count: 1
+Word: koi	 Count: 2
+Word: hai	 Count: 1
+Word: kom	 Count: 2
+Word: bag	 Count: 1
+Word: oak	 Count: 2
+Word: vaz	 Count: 1
+Word: hor	 Count: 1
+Word: zou	 Count: 1
+Word: jai	 Count: 1
+Word: haq	 Count: 1
+Word: pal	 Count: 1
+Word: po	 Count: 54
+Word: sim	 Count: 1
+Word: abu	 Count: 1
+Word: lal	 Count: 1
+Word: bux	 Count: 1
+Word: kak	 Count: 1
+Word: raj	 Count: 1
+Word: de	 Count: 60
+Word: kar	 Count: 1
+Word: dap	 Count: 2
+Word: kim	 Count: 1
+Word: ash	 Count: 1
+Word: bir	 Count: 1
+Word: mal	 Count: 1
+Word: dey	 Count: 1
+Word: om	 Count: 46
+Word: dar	 Count: 1
+Word: dia	 Count: 1
+Word: dib	 Count: 1
+Word: sha	 Count: 1
+Word: ain	 Count: 1
+Word: boo	 Count: 1
+Word: sa	 Count: 47
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2013/12/Prospectus-2013-14.pdf
+Word: sai	 Count: 2
+Word: sah	 Count: 2
+Word: rao	 Count: 1
+Word: rob	 Count: 1
+Word: ram	 Count: 3
+Word: roy	 Count: 1
+Word: dev	 Count: 1
+Word: ray	 Count: 1
+Word: dua	 Count: 2
+Word: mal	 Count: 1
+Word: hor	 Count: 3
+Word: abu	 Count: 1
+Word: po	 Count: 73
+Word: sur	 Count: 1
+Word: lal	 Count: 1
+Word: bux	 Count: 1
+Word: oza	 Count: 1
+Word: lad	 Count: 1
+Word: de	 Count: 67
+Word: hui	 Count: 1
+Word: kar	 Count: 2
+Word: dar	 Count: 1
+Word: sony	 Count: 1
+Word: ash	 Count: 1
+Word: bir	 Count: 1
+Word: sa	 Count: 91
+Word: dey	 Count: 1
+Word: din	 Count: 1
+Word: anu	 Count: 2
+Word: dia	 Count: 2
+Word: dib	 Count: 1
+Word: bee	 Count: 2
+Word: laha	 Count: 2
+Word: sha	 Count: 1
+Word: ain	 Count: 3
+Word: eid	 Count: 3
+Word: om	 Count: 74
+Word: bal	 Count: 2
+Word: bai	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/elec_mid-term-1/
+Word: kumar	 Count: 4
+Word: bhandari	 Count: 4
+Word: suman	 Count: 4
+Word: tilak	 Count: 5
+Word: sandeep	 Count: 5
+Word: suresh	 Count: 6
+Word: kaur	 Count: 16
+Word: ram	 Count: 9
+Word: garg	 Count: 4
+Word: khanna	 Count: 4
+Word: singh	 Count: 29
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: arora	 Count: 4
+Word: thakur	 Count: 5
+Word: date	 Count: 3
+Word: sem	 Count: 8
+Word: pal	 Count: 9
+Word: gambhir	 Count: 4
+Word: narayan	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/?p=1909
+Word: bhardwaj	 Count: 1
+Word: sharma	 Count: 2
+Word: gupta	 Count: 1
+Word: batra	 Count: 1
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: panwar	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 2
+Word: mamta	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/profile/?profile_id=175/
+Word: kumar	 Count: 9
+Word: sharma	 Count: 2
+Word: vipin	 Count: 2
+Word: pandey	 Count: 12
+Word: master	 Count: 1
+Word: panwar	 Count: 12
+Word: sem	 Count: 2
+Word: suresh	 Count: 9
+Word: singh	 Count: 12
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/time_table_15161.pdf
+Word: om	 Count: 1
+Word: de	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/consultancy-projects-ongoing-and-recently-completed/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/2007-081.pdf
+Word: om	 Count: 5
+Word: de	 Count: 4
+Word: dia	 Count: 1
+Word: dev	 Count: 1
+Word: sa	 Count: 5
+Word: po	 Count: 7
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/2006-071.pdf
+Word: om	 Count: 4
+Word: sa	 Count: 4
+Word: de	 Count: 3
+Word: pal	 Count: 1
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/2014-2015.pdf
+Word: dey	 Count: 1
+Word: om	 Count: 11
+Word: rob	 Count: 1
+Word: de	 Count: 12
+Word: oak	 Count: 1
+Word: bee	 Count: 1
+Word: kar	 Count: 1
+Word: abu	 Count: 1
+Word: dani	 Count: 1
+Word: boo	 Count: 1
+Word: haq	 Count: 1
+Word: sa	 Count: 14
+Word: po	 Count: 17
+Word: huq	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/2010-11.pdf
+Word: hai	 Count: 1
+Word: din	 Count: 1
+Word: pau	 Count: 1
+Word: de	 Count: 17
+Word: uday	 Count: 1
+Word: abed	 Count: 1
+Word: fan	 Count: 1
+Word: abu	 Count: 1
+Word: om	 Count: 18
+Word: sa	 Count: 15
+Word: po	 Count: 13
+
+Link: http://pec.ac.in/~pecac/new/institute-2/about-pec/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/mech_m-e-even-semester/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=1679
+Word: lal	 Count: 1
+Word: kumar	 Count: 3
+Word: sem	 Count: 2
+Word: jindal	 Count: 1
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/profile/?profile_id=72/
+Word: kumar	 Count: 6
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: ghosh	 Count: 4
+Word: misra	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/ele_about-department/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/20140919_100757.jpg
+Word: imam	 Count: 1
+Word: sai	 Count: 2
+Word: dar	 Count: 1
+Word: ali	 Count: 1
+Word: rob	 Count: 2
+Word: ram	 Count: 2
+Word: som	 Count: 5
+Word: rai	 Count: 1
+Word: ekka	 Count: 1
+Word: goud	 Count: 1
+Word: rau	 Count: 1
+Word: aly	 Count: 1
+Word: sen	 Count: 2
+Word: sem	 Count: 1
+Word: ray	 Count: 2
+Word: koi	 Count: 11
+Word: kom	 Count: 6
+Word: nag	 Count: 1
+Word: oak	 Count: 2
+Word: mal	 Count: 2
+Word: vaz	 Count: 2
+Word: lad	 Count: 1
+Word: ain	 Count: 3
+Word: hor	 Count: 2
+Word: abu	 Count: 1
+Word: goes	 Count: 1
+Word: jai	 Count: 1
+Word: pai	 Count: 1
+Word: loy	 Count: 1
+Word: pal	 Count: 2
+Word: po	 Count: 154
+Word: sim	 Count: 7
+Word: boo	 Count: 1
+Word: lal	 Count: 1
+Word: bux	 Count: 3
+Word: din	 Count: 2
+Word: oza	 Count: 2
+Word: kak	 Count: 3
+Word: de	 Count: 154
+Word: hui	 Count: 2
+Word: kar	 Count: 2
+Word: dap	 Count: 1
+Word: kim	 Count: 6
+Word: gad	 Count: 1
+Word: bir	 Count: 1
+Word: sa	 Count: 102
+Word: mao	 Count: 3
+Word: pau	 Count: 1
+Word: anu	 Count: 4
+Word: dey	 Count: 3
+Word: om	 Count: 324
+Word: alex	 Count: 1
+Word: roy	 Count: 4
+Word: dia	 Count: 2
+Word: dib	 Count: 2
+Word: bee	 Count: 1
+Word: sha	 Count: 2
+Word: bey	 Count: 2
+Word: tak	 Count: 1
+Word: eid	 Count: 4
+Word: deo	 Count: 4
+Word: fan	 Count: 1
+Word: deb	 Count: 2
+Word: bai	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/administration/board-of-governors/
+Word: agarwal	 Count: 1
+Word: aggarwal	 Count: 1
+Word: taneja	 Count: 1
+Word: pawan	 Count: 1
+Word: mittal	 Count: 1
+Word: som	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/administration/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/spo_faculty/
+Word: gill	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: singh	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/biodata-of-J.S.Gill-2.09.14.pdf
+Word: gill	 Count: 1
+Word: sa	 Count: 1
+Word: de	 Count: 5
+Word: singh	 Count: 1
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/aero_faculty/
+Word: lal	 Count: 1
+Word: kumar	 Count: 3
+Word: sem	 Count: 2
+Word: jindal	 Count: 1
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/category/uncategorise/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/?p=1850
+Word: kumar	 Count: 1
+Word: suman	 Count: 1
+Word: tilak	 Count: 1
+Word: sandeep	 Count: 1
+Word: garg	 Count: 1
+Word: kaur	 Count: 4
+Word: khanna	 Count: 1
+Word: singh	 Count: 2
+Word: master	 Count: 1
+Word: bhandari	 Count: 1
+Word: arora	 Count: 1
+Word: thakur	 Count: 1
+Word: sem	 Count: 2
+Word: gambhir	 Count: 1
+Word: narayan	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/even-semester?profile_id=148
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: khanna	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academics/undergraduate/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/m-tech-students-associated-with-csrc/
+Word: piyush	 Count: 1
+Word: gupta	 Count: 4
+Word: garg	 Count: 1
+Word: mittal	 Count: 1
+Word: arora	 Count: 1
+Word: khurana	 Count: 1
+Word: sem	 Count: 2
+Word: shailendra	 Count: 1
+Word: agarwal	 Count: 1
+Word: sharma	 Count: 1
+Word: goel	 Count: 1
+Word: saini	 Count: 1
+Word: pankaj	 Count: 1
+Word: master	 Count: 1
+Word: singh	 Count: 5
+Word: gulati	 Count: 1
+Word: nidhi	 Count: 2
+Word: tanwar	 Count: 1
+Word: tiwari	 Count: 1
+Word: kaur	 Count: 4
+Word: neha	 Count: 1
+Word: pathak	 Count: 1
+Word: nitin	 Count: 1
+Word: bansal	 Count: 1
+Word: kumar	 Count: 6
+Word: bedi	 Count: 1
+Word: verma	 Count: 1
+Word: richa	 Count: 1
+Word: dua	 Count: 1
+Word: mani	 Count: 1
+Word: sachin	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/e-notices-dean-academic-affairs/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/guidelines-for-internship-training/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/physical-education-101-course-students-performance-in-various-tests-and-mini-marathon-during-1st-semester-2014-15/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/academics/academic-calendar/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/institute-2/campus-map/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/asc-about-department/
+Word: sem	 Count: 2
+Word: doctor	 Count: 1
+Word: master	 Count: 1
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/about-coe/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/ongoing-projects/
+Word: mangal	 Count: 1
+Word: samir	 Count: 1
+Word: jaspal	 Count: 1
+Word: gupta	 Count: 1
+Word: prakash	 Count: 1
+Word: behl	 Count: 1
+Word: iqbal	 Count: 2
+Word: sem	 Count: 2
+Word: jawalkar	 Count: 1
+Word: sharma	 Count: 2
+Word: master	 Count: 1
+Word: bhasin	 Count: 1
+Word: singh	 Count: 7
+Word: neelam	 Count: 1
+Word: lal	 Count: 1
+Word: aman	 Count: 1
+Word: kaur	 Count: 2
+Word: kaushik	 Count: 1
+Word: vivek	 Count: 1
+Word: suman	 Count: 2
+Word: kumar	 Count: 5
+Word: saha	 Count: 1
+Word: banga	 Count: 1
+Word: varun	 Count: 1
+Word: mukul	 Count: 1
+Word: arora	 Count: 1
+Word: chawla	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/contact-us/
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: neelam	 Count: 1
+Word: kumar	 Count: 1
+Word: prakash	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/vision/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/facilities/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: atom	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/be-even-semester-applied-sciences/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/eec_odd-semester-2-2/
+Word: sah	 Count: 3
+Word: kaushal	 Count: 1
+Word: neena	 Count: 1
+Word: gupta	 Count: 1
+Word: prakash	 Count: 2
+Word: master	 Count: 1
+Word: mahajan	 Count: 1
+Word: jain	 Count: 1
+Word: kaur	 Count: 2
+Word: sem	 Count: 2
+Word: neelam	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/students-2/student-organizations/
+Word: sharma	 Count: 1
+Word: sahni	 Count: 1
+Word: singh	 Count: 2
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: gambhir	 Count: 1
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/aero-modeling-society-ams/
+Word: jindal	 Count: 1
+Word: verma	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: jain	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2015/03/aero2.jpg
+Word: jan	 Count: 1
+Word: om	 Count: 1
+Word: sai	 Count: 1
+Word: kom	 Count: 1
+Word: po	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2015/03/aero1.jpg
+Word: om	 Count: 1
+Word: dey	 Count: 1
+Word: sa	 Count: 1
+Word: po	 Count: 3
+Word: deo	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/eec_words-from-hod/
+Word: gupta	 Count: 1
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: neena	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Photo-of-Neena-Gupta2.jpg
+Word: sa	 Count: 1
+Word: om	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/category/e-ec/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/curriculum/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Ethics-and-Self-Awareness.pdf
+Word: om	 Count: 4
+Word: kom	 Count: 1
+Word: kar	 Count: 1
+Word: das	 Count: 1
+Word: de	 Count: 4
+Word: anu	 Count: 1
+Word: kim	 Count: 1
+Word: deo	 Count: 1
+Word: sa	 Count: 7
+Word: po	 Count: 7
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Electrical.pdf
+Word: koi	 Count: 1
+Word: om	 Count: 8
+Word: kar	 Count: 1
+Word: de	 Count: 6
+Word: oak	 Count: 1
+Word: hui	 Count: 1
+Word: dib	 Count: 1
+Word: rai	 Count: 1
+Word: anu	 Count: 1
+Word: sa	 Count: 6
+Word: bir	 Count: 1
+Word: po	 Count: 14
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Physics-Syllabus.pdf
+Word: om	 Count: 10
+Word: ram	 Count: 1
+Word: ali	 Count: 1
+Word: dua	 Count: 1
+Word: peri	 Count: 1
+Word: de	 Count: 9
+Word: fan	 Count: 1
+Word: sa	 Count: 9
+Word: ash	 Count: 1
+Word: po	 Count: 22
+Word: mao	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/1st-sem-Mech.-stream-syll.pdf
+Word: om	 Count: 7
+Word: ali	 Count: 1
+Word: de	 Count: 9
+Word: sa	 Count: 9
+Word: po	 Count: 6
+Word: oza	 Count: 1
+Word: bai	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Communication-Skills-Basic-and-Advanced.pdf
+Word: dey	 Count: 1
+Word: om	 Count: 5
+Word: rao	 Count: 1
+Word: de	 Count: 7
+Word: fan	 Count: 1
+Word: sen	 Count: 1
+Word: sa	 Count: 7
+Word: po	 Count: 8
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Civil.pdf
+Word: sai	 Count: 1
+Word: ben	 Count: 1
+Word: de	 Count: 8
+Word: om	 Count: 10
+Word: rai	 Count: 1
+Word: zou	 Count: 1
+Word: sen	 Count: 1
+Word: sa	 Count: 13
+Word: loy	 Count: 1
+Word: po	 Count: 9
+Word: bai	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/02/Production.pdf
+Word: om	 Count: 6
+Word: de	 Count: 6
+Word: vaz	 Count: 1
+Word: dap	 Count: 1
+Word: sa	 Count: 9
+Word: po	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/2nd-semester-2/
+Word: lal	 Count: 1
+Word: krishna	 Count: 1
+Word: thomas	 Count: 2
+Word: sharma	 Count: 1
+Word: ahuja	 Count: 1
+Word: gupta	 Count: 4
+Word: seth	 Count: 1
+Word: devi	 Count: 1
+Word: tata	 Count: 3
+Word: chadha	 Count: 1
+Word: deep	 Count: 2
+Word: rajput	 Count: 1
+Word: mall	 Count: 1
+Word: master	 Count: 1
+Word: pall	 Count: 1
+Word: srinivas	 Count: 1
+Word: mohan	 Count: 1
+Word: chand	 Count: 1
+Word: sem	 Count: 2
+Word: more	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pro_words/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/pro_faculty/
+Word: jawalkar	 Count: 1
+Word: suman	 Count: 1
+Word: suri	 Count: 1
+Word: goud	 Count: 1
+Word: nath	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: singh	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/metta_mid-term-1/
+Word: iqbal	 Count: 5
+Word: gupta	 Count: 6
+Word: garg	 Count: 2
+Word: ram	 Count: 5
+Word: arora	 Count: 1
+Word: batra	 Count: 1
+Word: sem	 Count: 2
+Word: chaubey	 Count: 1
+Word: sharma	 Count: 12
+Word: master	 Count: 1
+Word: singh	 Count: 26
+Word: rajkumar	 Count: 3
+Word: kumar	 Count: 4
+Word: aman	 Count: 1
+Word: vivek	 Count: 2
+Word: nitin	 Count: 1
+Word: sagar	 Count: 5
+Word: rajput	 Count: 2
+Word: mahajan	 Count: 1
+Word: date	 Count: 2
+Word: mamta	 Count: 6
+Word: bhardwaj	 Count: 6
+Word: sandeep	 Count: 2
+Word: lalit	 Count: 1
+Word: jain	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/aero_b-e-odd-semester/
+Word: jindal	 Count: 1
+Word: kumar	 Count: 2
+Word: tushar	 Count: 1
+Word: master	 Count: 1
+Word: manchanda	 Count: 1
+Word: sem	 Count: 2
+Word: chauhan	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/TUSHAR-SIAG.pdf
+Word: roy	 Count: 1
+Word: sa	 Count: 4
+Word: de	 Count: 2
+Word: po	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/Y-S-CHAUHAN.pdf
+Word: om	 Count: 1
+Word: oza	 Count: 1
+Word: kak	 Count: 1
+Word: de	 Count: 1
+Word: roy	 Count: 1
+Word: sa	 Count: 4
+Word: po	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/Time-Table-15161.pdf
+Word: de	 Count: 3
+Word: bag	 Count: 1
+Word: das	 Count: 1
+Word: sa	 Count: 4
+Word: ash	 Count: 1
+Word: po	 Count: 4
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/RAKESH-KUMAR.pdf
+Word: roy	 Count: 1
+Word: sa	 Count: 4
+Word: de	 Count: 1
+Word: po	 Count: 1
+Word: om	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/03/T-K-JINDAL.pdf
+Word: om	 Count: 2
+Word: de	 Count: 1
+Word: roy	 Count: 1
+Word: pai	 Count: 1
+Word: sa	 Count: 5
+Word: po	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/students-2/students-activity/
+Word: kumar	 Count: 1
+Word: sharma	 Count: 5
+Word: bhalla	 Count: 1
+Word: desai	 Count: 2
+Word: dhillon	 Count: 2
+Word: warrior	 Count: 3
+Word: virendra	 Count: 2
+Word: gandhi	 Count: 1
+Word: saxena	 Count: 2
+Word: shashank	 Count: 5
+Word: master	 Count: 1
+Word: rawat	 Count: 1
+Word: sem	 Count: 3
+Word: namdev	 Count: 2
+Word: ravi	 Count: 1
+Word: singh	 Count: 3
+Word: more	 Count: 3
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/DSC_1314.jpg
+Word: om	 Count: 27
+Word: sah	 Count: 1
+Word: kaur	 Count: 1
+Word: de	 Count: 15
+Word: raj	 Count: 1
+Word: roy	 Count: 2
+Word: sa	 Count: 7
+Word: bir	 Count: 1
+Word: po	 Count: 13
+Word: mao	 Count: 1
+Word: puri	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2014/01/Drams-284.jpg
+Word: hora	 Count: 1
+Word: sai	 Count: 2
+Word: sah	 Count: 3
+Word: dar	 Count: 2
+Word: ali	 Count: 3
+Word: rob	 Count: 2
+Word: wani	 Count: 1
+Word: som	 Count: 1
+Word: rai	 Count: 2
+Word: roy	 Count: 2
+Word: dib	 Count: 1
+Word: aly	 Count: 2
+Word: sen	 Count: 1
+Word: simi	 Count: 1
+Word: somu	 Count: 1
+Word: sem	 Count: 1
+Word: gad	 Count: 1
+Word: dua	 Count: 2
+Word: oak	 Count: 2
+Word: hor	 Count: 3
+Word: sur	 Count: 2
+Word: haq	 Count: 2
+Word: nori	 Count: 1
+Word: bal	 Count: 4
+Word: pal	 Count: 1
+Word: po	 Count: 298
+Word: zou	 Count: 1
+Word: lal	 Count: 1
+Word: abu	 Count: 1
+Word: dass	 Count: 1
+Word: din	 Count: 1
+Word: oza	 Count: 6
+Word: kak	 Count: 1
+Word: raj	 Count: 1
+Word: de	 Count: 159
+Word: hui	 Count: 1
+Word: kar	 Count: 2
+Word: huq	 Count: 3
+Word: kim	 Count: 2
+Word: das	 Count: 1
+Word: ash	 Count: 1
+Word: bir	 Count: 2
+Word: sa	 Count: 133
+Word: mao	 Count: 1
+Word: sury	 Count: 1
+Word: dey	 Count: 1
+Word: om	 Count: 127
+Word: ben	 Count: 2
+Word: anu	 Count: 2
+Word: dia	 Count: 1
+Word: dev	 Count: 2
+Word: sha	 Count: 3
+Word: eid	 Count: 1
+Word: deo	 Count: 2
+Word: deb	 Count: 5
+Word: arya	 Count: 1
+Word: bai	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/students-2/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/students-2/student-counseling/
+Word: sem	 Count: 2
+Word: master	 Count: 1
+Word: happy	 Count: 2
+
+Link: http://pec.ac.in/~pecac/new/orientation-programme-for-new-ug-entrants-commencing-from-aug-04-2015-aug-07-2015/
+Word: sem	 Count: 2
+Word: varun	 Count: 2
+Word: master	 Count: 2
+Word: arora	 Count: 1
+Word: happy	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/orientation-2015/
+Word: sharma	 Count: 1
+Word: varun	 Count: 1
+Word: praveen	 Count: 1
+Word: umesh	 Count: 1
+Word: master	 Count: 1
+Word: sem	 Count: 2
+Word: happy	 Count: 1
+Word: singh	 Count: 1
+Word: bansal	 Count: 1
+
+Link: http://pec.ac.in/~pecac/new/wp-content/uploads/2015/08/pec_easy.pdf
+Word: sai	 Count: 1
+Word: ali	 Count: 1
+Word: rao	 Count: 6
+Word: ram	 Count: 1
+Word: som	 Count: 1
+Word: rai	 Count: 1
+Word: anu	 Count: 2
+Word: rau	 Count: 2
+Word: aly	 Count: 2
+Word: sen	 Count: 1
+Word: tak	 Count: 1
+Word: koi	 Count: 1
+Word: hai	 Count: 1
+Word: kom	 Count: 3
+Word: pau	 Count: 3
+Word: dua	 Count: 1
+Word: oak	 Count: 1
+Word: vaz	 Count: 1
+Word: ain	 Count: 1
+Word: zou	 Count: 2
+Word: robi	 Count: 1
+Word: jai	 Count: 1
+Word: haq	 Count: 1
+Word: ray	 Count: 1
+Word: pal	 Count: 1
+Word: po	 Count: 73
+Word: lal	 Count: 2
+Word: kak	 Count: 1
+Word: de	 Count: 79
+Word: huq	 Count: 1
+Word: dar	 Count: 1
+Word: ash	 Count: 1
+Word: bir	 Count: 1
+Word: deb	 Count: 2
+Word: dey	 Count: 1
+Word: om	 Count: 81
+Word: dia	 Count: 1
+Word: dib	 Count: 2
+Word: bag	 Count: 2
+Word: bey	 Count: 1
+Word: eid	 Count: 1
+Word: boo	 Count: 2
+Word: sa	 Count: 74
+Word: bai	 Count: 1

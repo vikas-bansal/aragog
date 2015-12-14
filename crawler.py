@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+# #######################
+# A BROAD TODO LIST
+#
+# write unit tests
+# multi threading and object oriented - wherever need fits
+# fix issues in this file - search #fix tag
+# #######################
+
+
 ##inbuilt modules
 from sys import argv
 from pprint import pprint
@@ -10,15 +19,14 @@ import re
 import os
 import robotparser
 
-## downloaded
+## downloaded modules
 from bs4 import BeautifulSoup
 
-## local (created)
-from keywordFreq import countWords
+## local directory holds all local module files
+from local.keywordFreq import countWords
 
-currentFile = ''
 keywordFreqFile = "keywordFreq.txt"
-seedUrlFile = "seedUrls.txt"
+seedUrlFile = "seeds.txt"
 surnamesFile = "surnames.txt"
 citiesFile = "cities.txt"
 relevantLinks = "relevantLinks.txt"
@@ -49,10 +57,6 @@ keywordCountToUrlMap = defaultdict(set)
 # eg: { 22 : ('link1','link2'...) , 17 : ('link3','link4...) ....} 
 depth=0
 
-def createSoup(html):
-    return BeautifulSoup(html,from_encoding="utf-8") 
-
-
 #extracting text from html   
 def extractText(soup):
     # Removing Javascript and Css before extracting text
@@ -70,7 +74,7 @@ def extractLinks(soup, extractedText):
         if(link!=None and link!="javascript:void(0);" and link[:1]!="#"):
             anchorList.append(link)
     anchorList += re.findall(r'(https?://[^\s]+)', extractedText)
-    # not picking www.example.com or google.com/
+    #fix not picking www.example.com or google.com/
     f=open(currentFile+'/anchorList', 'w+')
     for link in anchorList:
         f.write(link+"\n")
@@ -84,7 +88,7 @@ def validateLinks(anchorList,parent):
     newParent=str()
     newScheme = str()
     validAnchorList = []
-    # expected formats
+    #fix expected formats
     # www.example.com ( urlparse put this domain into path not netloc )
     # example.com
     # http://example.com
@@ -194,7 +198,7 @@ def keywordFrequencyInFile(link):
         out.write('\n\n')
 
 def iterativeDFS(link,linkDepth,visited, existRobot):
-    global rp
+    global rp #fix valueError?
     if linkDepth+1 > depth:
         return
     if existRobot and not rp.can_fetch("*",link):
@@ -205,22 +209,31 @@ def iterativeDFS(link,linkDepth,visited, existRobot):
         response = urllib2.urlopen(link)
         info = response.info()## meta info for the above request - used to get mime type    text/html is expected
         mime = info.gettype()
+        #fix avoid mime types here
+
+
         link = response.geturl()# just in case request is redirected 
         html = response.read()
-        soup = createSoup(html)
+        soup = BeautifulSoup(html,from_encoding="utf-8") 
         text = extractText(soup)
 
 
-        # download content to a file
+        #download content to a file
         #urllib.urlretrieve(url, filename) 
         
-        keywordFrequencyInFile(link)
-        anchorList = validateLinks(extractLinks(soup,text),link)
+        #keywordFrequencyInFile(link) #fix :  we don't need this NOW I think
+
+        anchorList = validateLinks(extractLinks(soup,text),link) 
+
+        #fix make local module for opening links to extracting validated list of urls from its content
+        # this module would later be made to run on a different thread 
+
         f=open(currentFile+'/validLinks','w+')
         for link in anchorList:
             f.write(link+"\n")
         f.close()
-        for link in anchorList:
+
+        for link in anchorList: #  Depth first search
             if link not in visited:
                 print linkDepth,depth,link+"\n"
                 iterativeDFS(link,linkDepth+1,visited,existRobot)
@@ -230,19 +243,25 @@ def iterativeDFS(link,linkDepth,visited, existRobot):
 
 def main():
     global depth,currentFile
-    script,seedUrlFile,depth = argv
+    script,seedUrlFile,depth = argv #fix add default arguments if not provided in argv or do that in shebang
     depth = int(depth)
-    print int(depth)
+    
     initSurnamesDict()
     initCitiesDict()
+
     if not os.path.exists('results'):
         os.makedirs('results')
-    with open(seedUrlFile, 'r') as f:
+
+    with open(seedUrlFile, 'r') as f: #fix: seed Urls are expected to be in proper format?
             for seedUrl in f:
-                currentFile = 'results/'+str(seedUrl.replace('/','.'))
                 seedUrl = seedUrl.rstrip()
+                currentFile = 'results/'+str(seedUrl.replace('/','.'))
+                if not os.path.exists(currentFile):
+                    os.makedirs(currentFile)
+
+    
+                # get robot.txt
                 page_url = urlparse(seedUrl)
-                print seedUrl
                 base = page_url[0] + '://' + page_url[1]
                 robots_url = urljoin(base,'/robots.txt')
                 rp.set_url(robots_url)
@@ -252,8 +271,7 @@ def main():
                     existRobot = 1
                 except:
                     print "Robot.txt does not exist." + seedUrl
-                if not os.path.exists(currentFile):
-                    os.makedirs(currentFile)
+
                 iterativeDFS(seedUrl,0,[], existRobot)
                 createPriortizedUrlFile()
                 cleanUpLists()

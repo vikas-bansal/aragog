@@ -1,0 +1,29 @@
+def validateLinks(anchorList,parent):
+    newParent=str()
+    newScheme = str()
+    validAnchorList = []
+    # expected formats
+    # www.example.com ( urlparse put this domain into path not netloc )
+    # example.com
+    # http://example.com
+    # https://example.com
+    parent = urlparse(parent)
+    for link in anchorList:
+        parsedLink = urlparse(link)
+        if parsedLink.netloc and parsedLink.netloc != parent.netloc:
+            #print link
+            continue
+        if parsedLink.path and (parsedLink.path[-3:] in rejectedFormats or parsedLink.path[-4:] in rejectedFormats):
+            continue
+        if not parsedLink.scheme:
+            if not parsedLink.netloc:
+                newParent = parent.netloc
+            newScheme = parent.scheme
+            if not newParent:
+                newLink = (newScheme,) + parsedLink[1:]
+            else:
+                newLink = (newScheme, newParent) + parsedLink[2:]
+            validAnchorList.append(urlunparse(newLink))
+        else:
+            validAnchorList.append(link)
+    return validAnchorList

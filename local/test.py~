@@ -1,9 +1,0 @@
-def passs(B):
-	B.append(2)
-
-def main():
-	l = [1,2,3]
-	passs(l)
-	for x in range(0,3):
-		print(l[x])
-main()

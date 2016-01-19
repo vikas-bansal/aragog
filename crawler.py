@@ -108,7 +108,7 @@ def crawl(OPEN,linkDepth,visited, existRobot):
             link = removeBestUrl(OPEN)
             print "Traversing Link: "+link
             del OPEN[link]
-            visited.append(link)
+            visited[link] = True
 
             if existRobot and not rp.can_fetch("*",link):
                 print "Returning robot check "+ link
@@ -129,7 +129,7 @@ def crawl(OPEN,linkDepth,visited, existRobot):
             # this module would later be made to run on a different thread 
 
             for link in anchorList:
-                if link not in OPEN and link not in visited:
+                if link not in OPEN and visited.get(link) != None:
                     priority = calculatePriority(link)
                     OPEN[link] = priority
                     print priority
@@ -168,8 +168,7 @@ def main():
 
                 robotcheck()
                 #iterativeDFS(seedUrl,0,[], existRobot)
-                crawl({seedUrl:0},depth,[], existRobot)
-                #fix - visited hash
+                crawl({0:[seedUrl]},depth,{}, existRobot)
                 createPriortizedUrlFile()
                 cleanUpLists()                
 main()

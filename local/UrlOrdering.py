@@ -2,7 +2,7 @@ class UrlOrdering:
     
     counter = itertools.count()          # unique sequence count
     
-    def__init__(self,keywordsList):
+    def __init__(self,keywordsList):
         self.keywordsList = keywordsList
         self.pq = []                     # list of entries arranged in a heap
         self.counter = itertools.count() # unique sequence count

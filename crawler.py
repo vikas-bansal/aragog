@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 # #######################
 # A BROAD TODO LIST
 #
 # write unit tests
-# multi threading and object oriented - wherever need fits
 # fix issues in this file - search #fix tag
 # #######################
 
@@ -64,19 +63,12 @@ def init():
         for word in f:
             citiesList[word.rstrip().lower()]=1
 
-    #keyword dict - keyword priority
+    #keyword dict - keywords to look for in url with their priority
     priority = 0
     for line in reversed(open(keywordsListFile).readlines()) :
-        line.rstrip()
-        keywordsList[line] = priority
+        keywordsList[line.rstrip().lower()] = priority
         priority = priority+1
             
-                         
-def cleanUpLists():
-    global linkToKeywordsMap,keywordCountToUrlMap
-    linkToKeywordsMap = {}
-    keywordCountToUrlMap = defaultdict(set)
-    
 #writing keywordCount in a seperate file   
 def keywordFrequencyInFile(link):
     fileName = currentFile +'/'+str(link.replace('/','.'))
@@ -157,7 +149,9 @@ def main():
     if not os.path.exists('results'):
         os.makedirs('results')
 
-    with open(seedUrlFile, 'r') as f: #fix: assumption seed Urls are expected to be in proper format?
+    with open(seedUrlFile, 'r') as f: 
+    #fix: assumption seed Urls are expected to be in proper format?
+    	if links.isValid(seedUrlFile):
             for seedUrl in f: 
                 seedUrl = seedUrl.rstrip()
                 page_url = urlparse(seedUrl)
@@ -170,5 +164,4 @@ def main():
                 #iterativeDFS(seedUrl,0,[], existRobot)
                 crawl({0:[seedUrl]},depth,{}, existRobot)
                 createPriortizedUrlFile()
-                cleanUpLists()                
 main()

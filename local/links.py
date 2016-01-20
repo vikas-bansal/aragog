@@ -14,15 +14,19 @@ class Links:
             	anchorList.append(link)
     	anchorList += re.findall(r'(https?://[^\s]+)', extractedText)
     	#fix not picking www.example.com or google.com/
-    	f=open(currentFile+'/anchorList', 'w+')
-    	for link in anchorList:
-        	f.write(link+"\n")
-   		f.close()
     	set_anchorList = set(anchorList)
     	anchorList = list(set_anchorList)
     	return anchorList
     
 	# Validating links in anchor list to form list of valid urls to be crawled.
+
+    def isValid(link):
+        l = urlparse(link)
+        if l.scheme and l.netloc:
+            return True
+        else:
+            return False
+
 	def validateLinks(self,anchorList,parent):
     	newParent=str()
     	newScheme = str()

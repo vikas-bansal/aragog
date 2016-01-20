@@ -36,6 +36,8 @@ surnamesList = {}
 citiesList = {}
 linkToKeywordsMap = {}
 urlOrderObj = None
+linksObj = None
+relevanceCalculatorObj = None
 
 keywordCountToUrlMap = defaultdict(set)
 # eg: { 22 : ('link1','link2'...) , 17 : ('link3','link4...) ....} 
@@ -73,33 +75,21 @@ def init():
         priority = priority+1
         
     #creating object of UrlOrdering class
-    global urlOrderObj
+    global urlOrderObj,linksObj,relevanceCalculatorObj
     urlOrderObj =  UrlOrdering(keywordsList)
+    linksObj = Links()
+    relevanceCalculatorObj = RelevanceCalculator()
             
 #writing keywordCount in a seperate file   
 def keywordFrequencyInFile(link):
     fileName = currentFile +'/'+str(link.replace('/','.'))
     countDict = countWords(fileName)
-    matchGivenKeywords(countDict, link)
+    relevanceCalculatorObj.matchGivenKeywords(countDict, link)
     with open(keywordFreqFile, 'a') as out:
         out.write("FileName: "+fileName+"\n")
         pprint(countDict, stream=out)
         out.write('\n\n')
     
-def calculatePriority(link):
-    #fix break url into words and match with kwyworklisd
-    priority = 0
-    for keyword in keywordsList:
-        if keyword in link:
-            priority = priority + keywordsList[keyword]  
-    return priority  
-    
-
-def removeBestUrl(OPEN):
-    #remove best link and return
-    
-
-
 def crawl(linkDepth,visited, existRobot):
     global rp #fix valueError?
     while OPEN:
@@ -123,7 +113,7 @@ def crawl(linkDepth,visited, existRobot):
 
             #keywordFrequencyInFile(link) #fix :  we don't need this NOW I think
 
-            anchorList = validateLinks(extractLinks(soup,text),link) 
+            anchorList = linksObj.validateLinks(linksObj.extractLinks(soup,text),link) 
             # this module would later be made to run on a different thread 
 
             for link in anchorList:
@@ -166,7 +156,6 @@ def main():
                     os.makedirs(currentFile)
 
                 robotcheck()
-                #iterativeDFS(seedUrl,0,[], existRobot)
                 crawl(depth,{}, existRobot)
-                createPriortizedUrlFile()
+                relevanceCalculatorObj.createPriortizedUrlFile()
 main()

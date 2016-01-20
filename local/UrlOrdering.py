@@ -1,5 +1,7 @@
 class UrlOrdering:
     
+    #static variables
+    linkHash = {}
     counter = itertools.count()          # unique sequence count
     
     def __init__(self,keywordsList):
@@ -9,6 +11,7 @@ class UrlOrdering:
 
     def addLink(self,link):
         'Add a new link or update the priority of an existing link'
+        linkHash[link] = True
         priority = calculatePriority(link)
         count = next(counter)
         entry = [priority, count, link]

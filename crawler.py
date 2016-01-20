@@ -23,7 +23,9 @@ import robotparser
 from bs4 import BeautifulSoup
 
 ## local directory holds all local module files
-from local.links import validateLinks
+from local.links import Links
+from local.UrlOrdering import UrlOrdering
+from local.relevanceCalculator import RelevanceCalculator
 from local.keywordFreq import countWords
 
 
@@ -34,6 +36,7 @@ rp= robotparser.RobotFileParser()
 surnamesList = {}
 citiesList = {}
 linkToKeywordsMap = {}
+urlOrderObj = None
 
 keywordCountToUrlMap = defaultdict(set)
 # eg: { 22 : ('link1','link2'...) , 17 : ('link3','link4...) ....} 
@@ -70,6 +73,10 @@ def init():
         line.rstrip()
         keywordsList[line] = priority
         priority = priority+1
+        
+    #creating object of UrlOrdering class
+    global urlOrderObj
+    urlOrderObj =  UrlOrdering(keywordsList)
             
                          
 def cleanUpLists():
@@ -101,13 +108,12 @@ def removeBestUrl(OPEN):
     
 
 
-def crawl(OPEN,linkDepth,visited, existRobot):
+def crawl(linkDepth,visited, existRobot):
     global rp #fix valueError?
     while OPEN:
         try:
-            link = removeBestUrl(OPEN)
+            link = urlOrderObj.popLink(OPEN)
             print "Traversing Link: "+link
-            del OPEN[link]
             visited[link] = True
 
             if existRobot and not rp.can_fetch("*",link):
@@ -129,10 +135,8 @@ def crawl(OPEN,linkDepth,visited, existRobot):
             # this module would later be made to run on a different thread 
 
             for link in anchorList:
-                if link not in OPEN and visited.get(link) != None:
-                    priority = calculatePriority(link)
-                    OPEN[link] = priority
-                    print priority
+                if link not in linkHash and visited.get(link) != None:
+                    urlOrderObj.addLink(link)
         except IOError :
                 print "IOError reading: "+link
                 return 
@@ -162,13 +166,14 @@ def main():
                 seedUrl = seedUrl.rstrip()
                 page_url = urlparse(seedUrl)
                 currentFile = 'results/'+page_url.netloc
+                urlOrderObj.addLink(seedUrl)
 
                 if not os.path.exists():
                     os.makedirs(currentFile)
 
                 robotcheck()
                 #iterativeDFS(seedUrl,0,[], existRobot)
-                crawl({0:[seedUrl]},depth,{}, existRobot)
+                crawl(depth,{}, existRobot)
                 createPriortizedUrlFile()
                 cleanUpLists()                
 main()

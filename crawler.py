@@ -28,7 +28,7 @@ from local.relevanceCalculator import RelevanceCalculator
 from local.keywordFreq import countWords
 
 
-keywordsListFile = "keywords.txt"
+keywordsListFile = "inputs/keywords.txt"
 keywordsList = {}
 
 rp= robotparser.RobotFileParser()
@@ -123,7 +123,7 @@ def crawl(linkDepth,visited, existRobot):
                 print "IOError reading: "+link
                 return 
 
-def robotcheck():
+def robotcheck(page_url):
     # get robot.txt                
     base = page_url[0] + '://' + page_url[1]
     robots_url = urljoin(base,'/robots.txt')
@@ -134,6 +134,7 @@ def robotcheck():
         existRobot = 1
     except:
         print "Robot.txt does not exist." + seedUrl
+    return existRobot
 
 
 def main():
@@ -145,17 +146,17 @@ def main():
 
     with open(seedUrlFile, 'r') as f: 
     #fix: assumption seed Urls are expected to be in proper format?
-    	if links.isValid(seedUrlFile):
             for seedUrl in f: 
                 seedUrl = seedUrl.rstrip()
-                page_url = urlparse(seedUrl)
-                currentFile = 'results/'+page_url.netloc
-                urlOrderObj.addLink(seedUrl)
+                if linksObj.isValid(seedUrl):
+                    page_url = urlparse(seedUrl)
+                    currentFile = 'results/'+page_url.netloc
+                    urlOrderObj.addLink(seedUrl)
 
-                if not os.path.exists():
-                    os.makedirs(currentFile)
+                    if not os.path.exists(currentFile):
+                        os.makedirs(currentFile)
 
-                robotcheck()
-                crawl(depth,{}, existRobot)
-                relevanceCalculatorObj.createPriortizedUrlFile()
+                    existRobot = robotcheck(page_url)
+                    crawl(depth,{}, existRobot)
+                    relevanceCalculatorObj.createPriortizedUrlFile()
 main()

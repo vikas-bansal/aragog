@@ -156,7 +156,6 @@ def main():
                     os.makedirs(currentFile)
 
                 robotcheck()
-                #iterativeDFS(seedUrl,0,[], existRobot)
                 crawl(depth,{}, existRobot)
                 relevanceCalculatorObj.createPriortizedUrlFile()
 main()

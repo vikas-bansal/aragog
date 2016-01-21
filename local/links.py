@@ -1,4 +1,7 @@
 from urlparse import urlparse
+import re
+from urlparse import urlparse, urlunparse,urljoin
+
 class Links:
 	"""Class with functions related to links found during crawling like extracting list of links, validating them etc."""
 	
@@ -41,7 +44,7 @@ class Links:
                         parsedLink = urlparse(link)
                         if parsedLink.netloc and parsedLink.netloc != parent.netloc:
                                 continue
-                        if parsedLink.path and (parsedLink.path[-3:] in self.rejectedFormats or parsedLink.path[-4:] in rejectedFormats):
+                        if parsedLink.path and (parsedLink.path[-3:] in self.rejectedFormats or parsedLink.path[-4:] in self.rejectedFormats):
                                 continue
                         if not parsedLink.scheme:
                                 if not parsedLink.netloc:

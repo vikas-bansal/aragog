@@ -12,9 +12,7 @@
 from sys import argv
 from pprint import pprint
 from urlparse import urlparse, urlunparse,urljoin
-from collections import defaultdict
 import urllib2
-import re
 import os
 import robotparser
 
@@ -27,20 +25,13 @@ from local.UrlOrdering import UrlOrdering
 from local.relevanceCalculator import RelevanceCalculator
 from local.keywordFreq import countWords
 
-
-keywordsListFile = "inputs/keywords.txt"
 keywordsList = {}
-
 rp= robotparser.RobotFileParser()
-surnamesList = {}
-citiesList = {}
-linkToKeywordsMap = {}
 urlOrderObj = None
 linksObj = None
 relevanceCalculatorObj = None
-
-keywordCountToUrlMap = defaultdict(set)
-# eg: { 22 : ('link1','link2'...) , 17 : ('link3','link4...) ....} 
+seedUrlFile = "inputs/seeds.txt"
+depth = 5
 
 #extracting text from html   
 def extractText(soup):
@@ -49,34 +40,10 @@ def extractText(soup):
         script.extract()
     return soup.get_text().encode("utf-8")
 
-
-seedUrlFile = "inputs/seeds.txt"
-surnamesFile = "inputs/surnames.txt"
-citiesFile = "inputs/cities.txt"
-
-depth=5
-
-
 def init():
-    #SurnamesDict
-    with open(surnamesFile,'r') as f:
-        for word in f:
-            surnamesList[word.rstrip().lower()]=1
-
-    #CitiesDict
-    with open(citiesFile,'r') as f:
-        for word in f:
-            citiesList[word.rstrip().lower()]=1
-
-    #keyword dict - keywords to look for in url with their priority
-    priority = 0
-    for line in reversed(open(keywordsListFile).readlines()) :
-        keywordsList[line.rstrip().lower()] = priority
-        priority = priority+1
-        
     #creating object of UrlOrdering class
     global urlOrderObj,linksObj,relevanceCalculatorObj
-    urlOrderObj =  UrlOrdering(keywordsList)
+    urlOrderObj =  UrlOrdering(keywordsListFile)
     linksObj = Links()
     relevanceCalculatorObj = RelevanceCalculator()
             
@@ -84,7 +51,7 @@ def init():
 def keywordFrequencyInFile(link):
     fileName = currentFile +'/'+str(link.replace('/','.'))
     countDict = countWords(fileName)
-    relevanceCalculatorObj.matchGivenKeywords(countDict, link)
+    relevanceCalculatorObj.matchGivenKeywords(countDict, link,currentFile)
     with open(keywordFreqFile, 'a') as out:
         out.write("FileName: "+fileName+"\n")
         pprint(countDict, stream=out)
@@ -92,9 +59,9 @@ def keywordFrequencyInFile(link):
     
 def crawl(linkDepth,visited, existRobot):
     global rp #fix valueError?
-    while OPEN:
+    while urlOrderObj.openLinks:
         try:
-            link = urlOrderObj.popLink(OPEN)
+            link = urlOrderObj.popLink()
             print "Traversing Link: "+link
             visited[link] = True
 
@@ -117,7 +84,7 @@ def crawl(linkDepth,visited, existRobot):
             # this module would later be made to run on a different thread 
 
             for link in anchorList:
-                if link not in linkHash and visited.get(link) != None:
+                if urlOrderObj.openLinks.get(link) != None and visited.get(link) != None:
                     urlOrderObj.addLink(link)
         except IOError :
                 print "IOError reading: "+link
@@ -158,5 +125,5 @@ def main():
 
                     existRobot = robotcheck(page_url)
                     crawl(depth,{}, existRobot)
-                    relevanceCalculatorObj.createPriortizedUrlFile()
+                    relevanceCalculatorObj.createPriortizedUrlFile(currentFile)
 main()

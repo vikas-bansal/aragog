@@ -2,10 +2,10 @@ from itertools import count
 from heapq import heappush, heappop
 class UrlOrdering:
     
-    def __init__(self):
-        self.keywordsListFile = "../inputs/keywords.txt"
+    def __init__(self,keywords_file):
+        self.keywordsListFile = keywords_file
         self.keywordsList = {}
-        self.pq = []                     # list of entries arranged in a heap
+        self.pq = [] # list of entries arranged in a heap
         self.counter = count() # unique sequence count
         self.openLinks = {} # links which are in priority queue
         
@@ -16,7 +16,6 @@ class UrlOrdering:
             priority = priority+1
 
     def calculatePriority(self,link):
-        #fix break url into words and match with kwyworklisd
         priority = 0
         for keyword in self.keywordsList:
             if keyword in link:
@@ -38,6 +37,3 @@ class UrlOrdering:
             del self.openLinks[link]
             return link
         raise KeyError('pop from an empty priority queue')
-        
-
-        

@@ -1,37 +1,34 @@
 #!/usr/bin/env python
 
-# #######################
-# A BROAD TODO LIST
-#
-# write unit tests
-# fix issues in this file - search #fix tag
-# #######################
-
-
 ##inbuilt modules
-from sys import argv
-from pprint import pprint
-from urlparse import urlparse, urlunparse,urljoin
 import urllib2
 import os
-import robotparser
 
 ## downloaded modules
 from bs4 import BeautifulSoup
 
 ## local directory holds all local module files
+""" Note constructors are called for each module class"""
 from local.links import Links
 from local.UrlOrdering import UrlOrdering
 from local.relevanceCalculator import RelevanceCalculator
 from local.keywordFreq import countWords
 
+##inputs
+seeds_file = "inputs/seeds.txt"
+keywords_file = "inputs/keywords.txt"
+surnames_file = "inputs/surnames.txt"
+cities_file = "inputs/cities.txt"
+
+#fix filecheck for all above files
+
 keywordsList = {}
-rp= robotparser.RobotFileParser()
 urlOrderObj = None
 linksObj = None
 relevanceCalculatorObj = None
-seedUrlFile = "inputs/seeds.txt"
+
 depth = 5
+
 
 #extracting text from html   
 def extractText(soup):
@@ -43,66 +40,48 @@ def extractText(soup):
 def init():
     #creating object of UrlOrdering class
     global urlOrderObj,linksObj,relevanceCalculatorObj
-    urlOrderObj =  UrlOrdering(keywordsListFile)
+    urlOrderObj =  UrlOrdering(keywords_file)
     linksObj = Links()
-    relevanceCalculatorObj = RelevanceCalculator()
-            
-#writing keywordCount in a seperate file   
+    relevanceCalculatorObj = RelevanceCalculator(surnames_file,cities_file)
+
+
 def keywordFrequencyInFile(link):
     fileName = currentFile +'/'+str(link.replace('/','.'))
     countDict = countWords(fileName)
     relevanceCalculatorObj.matchGivenKeywords(countDict, link,currentFile)
-    with open(keywordFreqFile, 'a') as out:
-        out.write("FileName: "+fileName+"\n")
-        pprint(countDict, stream=out)
-        out.write('\n\n')
     
 def crawl(linkDepth,visited, existRobot):
-    global rp #fix valueError?
     while urlOrderObj.openLinks:
         try:
             link = urlOrderObj.popLink()
             print "Traversing Link: "+link
             visited[link] = True
 
-            if existRobot and not rp.can_fetch("*",link):
+            if existRobot and not linksObj.robot_allowed(link):
                 print "Returning robot check "+ link
                 continue
 
             response = urllib2.urlopen(link)
-            info = response.info()## meta info for the above request - used to get mime type    text/html is expected
+            info = response.info()
             mime = info.gettype()
-            #fix avoid mime types here
-
+            if 'text' not in mime: #avoiding pdf,ppt etc
+            	continue
             html = response.read()
             soup = BeautifulSoup(html,from_encoding="utf-8") 
             text = extractText(soup)
-
-            #keywordFrequencyInFile(link) #fix :  we don't need this NOW I think
-
-            anchorList = linksObj.validateLinks(linksObj.extractLinks(soup,text),link) 
-            # this module would later be made to run on a different thread 
-
+            anchorList = linksObj.extractLinks(soup,text)
+            print len(anchorList)
+            anchorList,rejected = linksObj.validateLinks(anchorList,link)
+            print len(anchorList)
+            print rejected
             for link in anchorList:
-                if urlOrderObj.openLinks.get(link) != None and visited.get(link) != None:
+            	#print link
+                if urlOrderObj.openLinks.get(link) == None and visited.get(link) == None:
                     urlOrderObj.addLink(link)
+            #exit()
         except IOError :
                 print "IOError reading: "+link
-                return 
-
-def robotcheck(page_url):
-    # get robot.txt                
-    base = page_url[0] + '://' + page_url[1]
-    robots_url = urljoin(base,'/robots.txt')
-    rp.set_url(robots_url)
-    existRobot=0
-    try:
-        rp.read()
-        existRobot = 1
-    except:
-        print "Robot.txt does not exist." + seedUrl
-    return existRobot
-
+                continue
 
 def main():
     global depth,currentFile
@@ -110,20 +89,20 @@ def main():
 
     if not os.path.exists('results'):
         os.makedirs('results')
-
-    with open(seedUrlFile, 'r') as f: 
-    #fix: assumption seed Urls are expected to be in proper format?
-            for seedUrl in f: 
-                seedUrl = seedUrl.rstrip()
-                if linksObj.isValid(seedUrl):
-                    page_url = urlparse(seedUrl)
-                    currentFile = 'results/'+page_url.netloc
-                    urlOrderObj.addLink(seedUrl)
-
-                    if not os.path.exists(currentFile):
-                        os.makedirs(currentFile)
-
-                    existRobot = robotcheck(page_url)
-                    crawl(depth,{}, existRobot)
-                    relevanceCalculatorObj.createPriortizedUrlFile(currentFile)
+    counter = 1
+    with open(seeds_file, 'r') as f: 
+        for seedUrl in f: 
+            seedUrl = seedUrl.rstrip().lower()
+            if linksObj.isValid(seedUrl):
+                domain = linksObj.domainOf(seedUrl)
+                if not domain:
+                	domain = counter
+                	counter = counter+1
+                currentFile = 'results/'+domain
+                urlOrderObj.addLink(seedUrl)
+                if not os.path.exists(currentFile):
+                    os.makedirs(currentFile)
+                existRobot = linksObj.robotcheck(seedUrl)
+                crawl(depth,{}, existRobot)
+                #relevanceCalculatorObj.createPriortizedUrlFile(currentFile)
 main()

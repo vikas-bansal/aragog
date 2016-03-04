@@ -1,20 +1,27 @@
-# Aragog :underage: :metal:
----
+# Aragog - webcrawler
+*and some spooky dark magic*
 
-**Intent** :  Information of Indian :in: academicians working abroad.
->*The URL ordering based focussed web crawler does this on the basis of relevance of topic of interest, the links are sorted using a priority queue before actually downloading them so as to search in a guided way using best first technique, rather than depth first technique of downloading all the web pages till a certain depth without calculating their relevance to out topic of interest usually leading to waste of resources, time :hourglass: and inefficient results.:poop:*
+[//]:#(![Aragog](http://vignette3.wikia.nocookie.net/harrypotter/images/1/11/Harry_potter_2.gif/revision/latest?cb=20140930202023))
 
-#### Bus factor :bus: : 3 
----
+**Intent** :  Information of Indian academicians working abroad.
+
+>*Focussed web crawler using best first crawling and URL priority ordering to avoid waste of resources, time :hourglass: and inefficient results.:poop:*
+
+Test webcrawler
+```
+python crawler.py
+```
+
+##### Contributors :bus: : 3 
 * Ankur-Manc 
 * Hargun-Kaur
 * Vikas-bansal
 
-#### Todos :checkered_flag:
----
-- [x]  &nbsp;&nbsp; *Write unit tests for all local modules*
+##### Todos :checkered_flag:
+- [ ]  &nbsp;&nbsp; *Unit tests*
 - [ ]  &nbsp;&nbsp; *Fix #fix & Links class*
-- [x]  &nbsp;&nbsp; *Object orientation*
-- [ ]  &nbsp;&nbsp; *Need of multi threading, message queue*
+- [ ]  &nbsp;&nbsp; *Keyword Queries*
+- [ ]  &nbsp;&nbsp; *Document Classification*
+- [ ]  &nbsp;&nbsp; *Multi threading, message queue*
 - [ ]  &nbsp;&nbsp; *Database and indexing* 
 

@@ -5,7 +5,6 @@ honorroll
 asian
 news
 staff
-provost
 archive
 glance
 artists

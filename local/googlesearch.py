@@ -34,7 +34,8 @@ class google:
 		for r in arr:
 			results.append(r['url'])
 		return results
-"""
+
+'''
 #test
 domain = "mit.edu"
 keyword = "faculty"
@@ -43,6 +44,6 @@ cx  = "016070814652324639602:ajhiexm-yfe" #engine ID
 
 
 gobj = google(apiKey,cx)
-arr = gobj.ajaxsearch(keyword+"site:"+ domain)
-print arr
-"""
+arr = gobj.apisearch(keyword+"site:"+ domain)
+for link in arr:
+	print link'''

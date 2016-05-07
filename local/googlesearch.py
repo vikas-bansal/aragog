@@ -13,15 +13,18 @@ class google:
 	def __init__(self,apiKey,cx):
 		self.apiKey = apiKey
 		self.cx = cx
-	
+
 	def apisearch(self,query):
 		#maximum 10 results in one call
 		query = urllib.urlencode ( { 'q' : query } )
 		response = urllib.urlopen ( "https://www.googleapis.com/customsearch/v1?key="+self.apiKey+"&cx="+self.cx+"&q="+query).read()
 		json = m_json.loads ( response )
 		results = []
-		for r in json['items']:
-			results.append(r['link'])
+		if 'items' in json.keys():
+			for r in json['items']:
+				results.append(r['link'])
+		else:
+			print('No results returned from google',json)
 		return results
 
 	def ajaxsearch(self,query):
@@ -37,7 +40,7 @@ class google:
 
 '''
 #test
-domain = "mit.edu"
+domain = "stanford.edu"
 keyword = "faculty"
 apiKey = "AIzaSyCO-m_ZU8Z2HKw4xbW1LegZjvAsOABXGL0"
 cx  = "016070814652324639602:ajhiexm-yfe" #engine ID
@@ -46,4 +49,5 @@ cx  = "016070814652324639602:ajhiexm-yfe" #engine ID
 gobj = google(apiKey,cx)
 arr = gobj.apisearch(keyword+"site:"+ domain)
 for link in arr:
-	print link'''
+	print link
+'''

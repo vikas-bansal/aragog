@@ -3,12 +3,24 @@ import re
 from urlparse import urlparse, urlunparse,urljoin
 import robotparser
 
+"""Class with functions related to links found during crawling like extracting list of links, validating them etc."""
+
 class Links:
-    """Class with functions related to links found during crawling like extracting list of links, validating them etc."""
     def __init__(self):
         global rp
         self.rejectedFormats =  ['pdf','ppt','doc','docx','png','jpg','jpeg','zip']
         rp= robotparser.RobotFileParser()
+
+    def isValid(self,link):
+        l = urlparse(link)
+        if l.scheme and l.netloc:
+            return True
+        else:
+            return False
+
+    def domainOf(self,url):
+        url_components = urlparse(url)
+        return url_components.netloc
 
     #retriving links from anchor tags and regex search
     def extractLinks(self, soup, extractedText):
@@ -23,24 +35,6 @@ class Links:
         set_anchorList = set(anchorList)
         anchorList = list(set_anchorList)
         return anchorList
-
-    def isValid(self,link):
-        l = urlparse(link)
-    	if l.scheme and l.netloc:
-        	return True
-    	else:
-        	return False
-
-    #fix expected formats
-    # www.example.com ( urlparse put this domain into path not netloc )
-    # example.com
-    # http://example.com
-    # https://example.com
-
-    def domainOf(self,url):
-        url_components = urlparse(url)
-        return url_components.netloc
-
 
     def robotcheck(self,seedUrl):
         # get robot.txt                
@@ -85,3 +79,17 @@ class Links:
             else:
                 validAnchorList.append(link)
         return validAnchorList,rejectedList
+
+
+#test
+links_utility = Links()
+cases=[
+'http://tech.mit.edu',
+'tech.mit.edu',
+'mit.edu',
+'www.pec.ac.in',
+'http://www.pec.ac.in',
+'https://www.mit.edu'
+]
+for url in cases:
+    print links_utility.isValid(url)

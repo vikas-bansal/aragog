@@ -17,11 +17,15 @@ python crawler.py
 * Hargun-Kaur
 * Vikas-bansal
 
-##### Todos :checkered_flag:
-- [ ]  &nbsp;&nbsp; *Unit tests*
-- [ ]  &nbsp;&nbsp; *Fix #fix & Links class*
-- [ ]  &nbsp;&nbsp; *Keyword Queries*
-- [ ]  &nbsp;&nbsp; *Document Classification*
-- [ ]  &nbsp;&nbsp; *Multi threading, message queue*
-- [ ]  &nbsp;&nbsp; *Database and indexing* 
+
+Todos :checkered_flag:
+* Finding relevance score using Block wise weighted keyword(name,city) match
+* Unit tests
+* Fix #fix & Links class
+
+
+Start
+* Document Classification
+* Multi threading, message queue
+* Database and indexing
 

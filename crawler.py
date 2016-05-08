@@ -15,20 +15,15 @@ from local.relevanceCalculator import RelevanceCalculator
 
 #from local.keywordFreq import countWords
 from local.googlesearch import google
-from local.querySearch import querySearch
+from local.seleniumSearch import querySearch
 
-
-#google custom search api keys
-api_key = "AIzaSyCO-m_ZU8Z2HKw4xbW1LegZjvAsOABXGL0"
-engine_id  = "016070814652324639602:ajhiexm-yfe" #engine ID
-googleObj = google(api_key,engine_id)
-query_list = ['faculty','staff','people','member','teacher','professor','alumni']
 
 ##input files
 seeds_file = "inputs/seeds.txt"
 keywords_file = "inputs/keywords.txt"
 surnames_file = "inputs/surnames.txt"
 cities_file = "inputs/cities.txt"
+tags_file = "inputs/tags.txt"
 
 
 
@@ -37,6 +32,7 @@ urlOrderObj = None
 linksObj = None
 relevanceCalculatorObj = None
 keywords = []
+
 #google search parameters
 apiKey = "AIzaSyCO-m_ZU8Z2HKw4xbW1LegZjvAsOABXGL0"
 cx  = "016070814652324639602:ajhiexm-yfe" #engine ID
@@ -44,22 +40,14 @@ cx  = "016070814652324639602:ajhiexm-yfe" #engine ID
 depth = 5
 
 def init():
-    #creating object of UrlOrdering class
     global urlOrderObj,linksObj,relevanceCalculatorObj,keywords
-    urlOrderObj =  UrlOrdering(keywords_file)
     linksObj = Links()
-    relevanceCalculatorObj = RelevanceCalculator(surnames_file,cities_file)
-    #keywords = getKeywordsFromFile()
-
-def getKeywordsFromFile():
-    keywords = []
+    relevanceCalculatorObj = RelevanceCalculator(surnames_file,cities_file,tags_file)    
     with open(keywords_file, 'r') as f:
         for line in f:
-            word = line.strip()
-            keywords.append(word)
+            keywords.append(line.strip())
         f.closed
-    print keywords
-    return keywords    
+    
     
 def crawl(linkDepth,visited, existRobot):
     while urlOrderObj.openLinks:
@@ -98,6 +86,20 @@ def crawl(linkDepth,visited, existRobot):
                 print "IOError reading: "+link
                 continue
 
+def intelligent_crawl(url_bucket,currentFile):
+	for link in url_bucket:
+		response = urllib2.urlopen(link)
+	    info = response.info()
+	    mime = info.gettype()
+	    if 'text' not in mime: #avoiding pdf,ppt etc
+	        continue
+	    html = response.read()
+	    soup = BeautifulSoup(html,from_encoding="utf-8") 
+		link_score = relevanceCalculatorObj.get_score(soup)
+		with open(currentFile) as f:
+			f.write(link)
+			f.write(link_score)
+
 def getShootQueryResultUrls(domain):
     global keywords
     querySrchObj = querySearch(keywords, domain)
@@ -116,7 +118,7 @@ def getGoogleSearchUrls(domain):
         print urls
     return googleResults
 
-def findInitialUrlsSet(domain):
+def findInitialUrlsSet(domain):  #fix remove duplicate 
     global keywords
     googleResults = getGoogleSearchUrls(domain)
     queryResults = getShootQueryResultUrls(domain)
@@ -147,15 +149,11 @@ def main():
 
                 url_bucket = findInitialUrlsSet(seedUrl)
 
-                #urlOrderObj.addLink(seedUrl)
-                #url ordering is disabled.relevance calculator is to be used to order url_bucket
-
-
-
-                #if not os.path.exists(currentFile):
-                #	os.makedirs(currentFile)
+                if not os.path.exists(currentFile):#we log json here {url,priority,matches}
+                	os.makedirs(currentFile)
+                intelligent_crawl(url_bucket,currentFile)
 
                 #existRobot = linksObj.robotcheck(seedUrl)
                 #crawl(depth,{}, existRobot)
-                #relevanceCalculatorObj.createPriortizedUrlFile(currentFile)
+
 main()

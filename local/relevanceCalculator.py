@@ -1,12 +1,6 @@
-from collections import defaultdict
 class RelevanceCalculator:
     """Class to calculate score of downloaded webpage."""    
-    def __init__(self,surnames_file,cities_file):
-        self.keywordFreqFile = "keywordFreq.txt"
-        self.relevantLinks = "relevantLinks.txt"
-        self.priortizedUrlFile = "priortizedUrls.txt"
-        self.keywordCountToUrlMap = defaultdict(set)
-        self.linkToKeywordsMap = {}
+    def __init__(self,surnames_file,cities_file,tags_file):
         self.surnamesList = {}
         self.citiesList = {}
         #SurnamesDict
@@ -18,56 +12,49 @@ class RelevanceCalculator:
             for word in f:
                 self.citiesList[word.rstrip().lower()]=1
 
-    def createPriortizedUrlFile(self,currentFile):
-        with open(currentFile+'/'+self.priortizedUrlFile, 'w+') as out:
-            for key in sorted(self.keywordCountToUrlMap.keys(), reverse=True):
-                keywordCount = key
-                links = self.keywordCountToUrlMap[key]
-                for link in links:
-                    out.write("\n\nLink: %s \t keywordCount: %s"  %(link,keywordCount))
-                    surnames = self.linkToKeywordsMap[link]["surnames"]
-                    cities = self.linkToKeywordsMap[link]["cities"]
-                    if len(surnames) > 0:
-                        out.write("\n\nSurnames:")
-                        for word,count in surnames.iteritems():
-                            out.write("\nWord: %s\t Count: %s" %(word,count))
-                    if len(cities) > 0:
-                        out.write("\n\nCities:")
-                        for word,count in cities.iteritems():
-                            out.write("\nWord: %s\t Count: %s" %(word,count))
+        #html tags weights
+        with open(tags_file,'r') as f:
+            for word in f:
+                self.weights[word.rstrip().lower()] = 1
 
-    def matchGivenKeywords(self,countDict, link,currentFile): 
-        matchedSurnames = {}
-        matchedCities = {} 
-        for word,count in countDict.iteritems():
-            try:
-                if self.surnamesList[word]:
-                    matchedSurnames[word] = count
-            except KeyError:
+    def path_score(tag,method): # given a tag this function gives the path score till html(max/add method)
+        score = 0
+        if(method == 'max'):
+            for parent in tag.parents:
+                if score < get_weight(parent.name):
+                    score = get_weight(parent.name)
+        else:
+            k = 0.1
+            for parent in tag.parents:
+                score += get_weight(parent.name) * k
+                k = k+0.1
+        return score
+
+    def get_weight(html_tag): #incase we have some html tags not covered 
+        try:
+            if(weights[html_tag]):
+                return weights[html_tag]
+        except keyError:
+            return 0.27 #defualt_weight
+
+    def get_score(self,soup):
+        # print url,score,matched_words 
+        page_score = 0
+        text_nodes = soup.findAll(text = True)
+        for text_node in text_nodes:
+            for word in text_node.split():
                 try:
-                    if self.citiesList[word]:
-                        matchedCities[word] = count
+                    if self.surnamesList[word.strip().lower()]:
+                        page_score += path_score(tag,'max')
                 except KeyError:
-                    continue
-        totalKeywords = updateRelevantLinks(link,matchedSurnames,matchedCities,currentFile)
-        self.keywordCountToUrlMap[totalKeywords].add(link)
-        self.linkToKeywordsMap[link] = {}
-        self.linkToKeywordsMap[link]['surnames'] = dict(matchedSurnames)
-        self.linkToKeywordsMap[link]['cities'] = dict(matchedCities)
-    
-    def updateRelevantLinks(self, link,surnames,cities,currentFile):
-        keywordCount = 0
-        with open(currentFile+'/'+self.relevantLinks, 'w+') as out:
-            out.write("\n\nLink: %s"%(link))
-            if len(surnames) > 0:
-                out.write("\n\nSurnames:")
-                for word,count in surnames.iteritems():
-                    keywordCount += count
-                    out.write("\nWord: %s\t Count: %s" %(word,count))
-            if len(cities) > 0:
-                out.write("\n\nCities:")
-                for word,count in cities.iteritems():
-                    keywordCount += count
-                    out.write("\nWord: %s\t Count: %s" %(word,count))
-        return keywordCount
+                    print('keyError')
 
+                try:
+                    if self.citiessList[word.strip().lower()]:
+                    page_score += path_score(tag,'max')
+                except KeyError:
+                    print('keyError')
+        return page_score
+                    
+
+    

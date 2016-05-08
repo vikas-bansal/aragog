@@ -18,6 +18,7 @@ class querySearch:
         self.driver = None
         self.linksObj = Links()
         self.srchResults = {}
+        self.srchIdFound = True
 
     def getInputInterfaces(self):
         response = urllib2.urlopen(self.domain)
@@ -27,7 +28,11 @@ class querySearch:
         inputInterfaces = soup.find_all('input')
         for interface in inputInterfaces:
             if interface.get('type') == "text" or interface.get('type') == "search":
-                self.srchInterface.append(interface.get('id'))
+                if interface.get('id') != None:
+                    self.srchInterface.append(interface.get('id'))
+                else:
+                    self.srchInterface.append(interface.get('name'))
+                    self.srchIdFound = False
             elif interface.get('type')== "radio":
                 self.radioInterface.append(interface.get('id'))
             elif interface.get('type') == "checkbox":
@@ -35,9 +40,9 @@ class querySearch:
 
     def exhaustiveSearch(self):
         self.getInputInterfaces()
-        #For firefox user--> self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox()
         #In chrome you may need to install chromedriver at path given below if !present
-        self.driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
+        #self.driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
         self.driver.get(self.domain)
         srchInterface = self.srchInterface
         radioInterface = self.radioInterface
@@ -68,23 +73,33 @@ class querySearch:
 
     def shootQuery(self, srchInterfaceId):
         keywords = self.keywords
-        inputElement = self.driver.find_element_by_id(srchInterfaceId)
+        if self.srchIdFound == True:
+            inputElement = self.driver.find_element_by_id(srchInterfaceId)
+        else:
+            inputElement = self.driver.find_element_by_name(srchInterfaceId)
+        print keywords
         inputElement.send_keys(keywords[0])
         inputElement.send_keys(Keys.ENTER)
         url = self.driver.current_url
         for word in keywords:
             newUrl = re.sub(keywords[0],word,url)
+            print newUrl
             response1 = urllib2.urlopen(newUrl)
             html1 = response1.read()
             soup1 = BeautifulSoup(html1,from_encoding="utf-8")
             text = self.extractText(soup1)
-            urls,rejectedUrls = self.linksObj.validateLinks(self.linksObj.extractLinks(soup1,text),self.domain)
-            print "\n"+word            
+            urls = self.linksObj.extractLinks(soup1,text)
+            #print soup1
+            print "\n"+word  
+            print "\n URLS: "
+            print urls
+            #print "\n REJECTED: "
+            #print rejectedUrls        
             if word in self.srchResults:
                 self.srchResults[word] += urls
             else:
                 self.srchResults[word] = urls
-            print self.srchResults[word]
+            #print self.srchResults[word]
         self.driver.get(self.domain)
         
 

@@ -40,9 +40,9 @@ class querySearch:
 
     def exhaustiveSearch(self):
         self.getInputInterfaces()
-        self.driver = webdriver.Firefox()
+        #self.driver = webdriver.Firefox()
         #In chrome you may need to install chromedriver at path given below if !present
-        #self.driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
+        self.driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
         self.driver.get(self.domain)
         srchInterface = self.srchInterface
         radioInterface = self.radioInterface
@@ -88,7 +88,7 @@ class querySearch:
             html1 = response1.read()
             soup1 = BeautifulSoup(html1,from_encoding="utf-8")
             text = self.extractText(soup1)
-            urls = self.linksObj.extractLinks(soup1,text)
+            urls,rejectedUrls = self.linksObj.validateLinks(self.linksObj.extractLinks(soup1,text),self.domain)
             #print soup1
             print "\n"+word  
             print "\n URLS: "

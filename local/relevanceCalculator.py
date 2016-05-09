@@ -3,6 +3,7 @@ class RelevanceCalculator:
     def __init__(self,surnames_file,cities_file,tags_file):
         self.surnamesList = {}
         self.citiesList = {}
+        self.weights = {}
         #SurnamesDict
         with open(surnames_file,'r') as f:
             for word in f:
@@ -14,26 +15,45 @@ class RelevanceCalculator:
 
         #html tags weights
         with open(tags_file,'r') as f:
-            for word in f:
-                self.weights[word.rstrip().lower()] = 1
+            for tagInfo in f:
+                tagInfo = tagInfo.split()
+        tag = tagInfo[0]
+        weight = tagInfo[1]
+        tag = tag.split("-")
+        actualTag = tag[0]
+        tagType = tag[1]
+        try:
+            if self.weights[actualTag]:
+                if tagType is "surname":
+                    self.weights[actualTag]["surname"] = weight
+                elif tagType is "cities":
+                    self.weights[actualTag]["cities"] = weight
+        except KeyError:
+            self.weights[actualTag] = {}
+            if tagType is "surname":
+                self.weights[actualTag]["surname"] = weight
+            elif tagType is "cities":
+                self.weights[actualTag]["cities"] = weight
+                
 
-    def path_score(tag,method): # given a tag this function gives the path score till html(max/add method)
+    def path_score(tag,method,tagType): # given a tag this function gives the path score till html(max/add method)
         score = 0
         if(method == 'max'):
             for parent in tag.parents:
-                if score < get_weight(parent.name):
-                    score = get_weight(parent.name)
+                if score < get_weight(parent.name,tagType):
+                    score = get_weight(parent.name,tagType)
         else:
             k = 0.1
             for parent in tag.parents:
-                score += get_weight(parent.name) * k
+                score += get_weight(parent.name,tagType) * k
                 k = k+0.1
         return score
 
-    def get_weight(html_tag): #incase we have some html tags not covered 
+    def get_weight(self,html_tag,tagType): #incase we have some html tags not covered 
         try:
-            if(weights[html_tag]):
-                return weights[html_tag]
+            if(self.weights[html_tag]):
+                if(self.weights[html_tag][tagType]):
+                    return self.weights[html_tag][tagType]
         except keyError:
             return 0.27 #defualt_weight
 
@@ -45,15 +65,15 @@ class RelevanceCalculator:
             for word in text_node.split():
                 try:
                     if self.surnamesList[word.strip().lower()]:
-                        page_score += path_score(tag,'max')
+                        page_score += path_score(tag,'max',"surname")
+			print('found'+word)
                 except KeyError:
-                    print('keyError')
-
-                try:
-                    if self.citiessList[word.strip().lower()]:
-                    page_score += path_score(tag,'max')
-                except KeyError:
-                    print('keyError')
+                    try:
+                    	if self.citiesList[word.strip().lower()]:
+                            page_score += path_score(tag,'max',"cities")
+			    print('found'+word)
+                    except KeyError:
+                        continue
         return page_score
                     
 

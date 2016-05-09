@@ -87,18 +87,23 @@ def crawl(linkDepth,visited, existRobot):
                 continue
 
 def intelligent_crawl(url_bucket,currentFile):
-	for link in url_bucket:
-		response = urllib2.urlopen(link)
-	    info = response.info()
-	    mime = info.gettype()
-	    if 'text' not in mime: #avoiding pdf,ppt etc
-	        continue
-	    html = response.read()
-	    soup = BeautifulSoup(html,from_encoding="utf-8") 
-		link_score = relevanceCalculatorObj.get_score(soup)
-		with open(currentFile) as f:
-			f.write(link)
-			f.write(link_score)
+    for link in url_bucket:
+        try:
+            print link
+            response = urllib2.urlopen(link)
+            info = response.info()
+            mime = info.gettype()
+            if 'text' not in mime: #avoiding pdf,ppt etc
+                continue
+            html = response.read()
+            soup = BeautifulSoup(html,from_encoding="utf-8") 
+            link_score = relevanceCalculatorObj.get_score(soup)
+            with open(currentFile,"a+") as f:
+                f.write(link)
+                f.write(link_score)
+                f.write("\n\n")
+        except:
+            continue
 
 def getShootQueryResultUrls(domain):
     global keywords
@@ -123,12 +128,16 @@ def findInitialUrlsSet(domain):  #fix remove duplicate
     googleResults = getGoogleSearchUrls(domain)
     queryResults = getShootQueryResultUrls(domain)
     mergedResults = {}
+    url_bucket = []
     print "Lets Merge"
     for word in keywords:
         mergedResults[word] = googleResults[word]+queryResults[word]
+        url_bucket.extend(mergedResults[word])
         print "\n" + word
         print mergedResults[word]
-    return mergedResults
+    url_bucket = list(set(url_bucket))
+    print("\n"+"\nfinal List"+ ''.join(url_bucket)) 
+    return url_bucket
                
 def main():
     global depth,currentFile
@@ -150,8 +159,8 @@ def main():
                 url_bucket = findInitialUrlsSet(seedUrl)
 
                 if not os.path.exists(currentFile):#we log json here {url,priority,matches}
-                	os.makedirs(currentFile)
-                intelligent_crawl(url_bucket,currentFile)
+                    os.makedirs(currentFile)
+                intelligent_crawl(url_bucket,currentFile+"/log.txt")
 
                 #existRobot = linksObj.robotcheck(seedUrl)
                 #crawl(depth,{}, existRobot)

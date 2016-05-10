@@ -488,7 +488,6 @@ Camara
 Chana
 Channar
 Boruah
-Can
 Chanambam
 Channarayapatra
 Bose
@@ -2246,7 +2245,6 @@ Massoud
 Mall
 Manesh
 Manrayar
-Master
 Malla
 Mangal
 Mansey
@@ -2395,7 +2393,7 @@ Morarka
 Mazarello
 Mergulhao
 Modak
-More
+Mour
 Mazhavaraayar
 Meshram
 Modhwadia

@@ -3,6 +3,9 @@
 ##inbuilt modules
 import urllib2
 import os
+import sys, traceback
+import json
+from pprint import pprint
 
 ## downloaded modules
 from bs4 import BeautifulSoup
@@ -89,20 +92,34 @@ def crawl(linkDepth,visited, existRobot):
 def intelligent_crawl(url_bucket,currentFile):
     for link in url_bucket:
         try:
-            print link
+            #print link
             response = urllib2.urlopen(link)
             info = response.info()
             mime = info.gettype()
             if 'text' not in mime: #avoiding pdf,ppt etc
+                print "not in mime\n"
                 continue
             html = response.read()
             soup = BeautifulSoup(html,from_encoding="utf-8") 
-            link_score = relevanceCalculatorObj.get_score(soup)
-            with open(currentFile,"a+") as f:
-                f.write(link)
-                f.write(link_score)
-                f.write("\n\n")
+            link_score_max,link_score_add,found_list = relevanceCalculatorObj.get_score(soup)
+            '''
+            jss = {}
+            jss['link'] = link
+            jss['link_scores'] = [link_score_max,link_score_add]
+            jss['no_of_words_matched'] = len(found_list)
+            jss['words_matched'] = found_list
+            print json.dumps(jss,indent=4,sort_keys = True)
+            '''
+            with open(currentFile, 'a+') as out:
+                out.write('link :' + link+'\n')
+                out.write('link-score(maximum parent weight method) : ' + str(link_score_max) + '\n')
+                out.write('link-score(add parent weight method) : '+str(link_score_add)+'\n')
+                out.write('number of words matched : '+str(len(found_list))+'\n')
+                out.write('words-matched : '+ ' '.join(found_list))
+                out.write('\n\n#############################################\n\n')
         except:
+            print "exception"
+            traceback.print_exc(file=sys.stdout)
             continue
 
 def getShootQueryResultUrls(domain):
@@ -123,20 +140,19 @@ def getGoogleSearchUrls(domain):
         print urls
     return googleResults
 
-def findInitialUrlsSet(domain):  #fix remove duplicate 
+def findInitialUrlsSet(domain):  
     global keywords
     googleResults = getGoogleSearchUrls(domain)
     queryResults = getShootQueryResultUrls(domain)
     mergedResults = {}
     url_bucket = []
-    print "Lets Merge"
+    print "Lets Merge\n"
     for word in keywords:
-        mergedResults[word] = googleResults[word]+queryResults[word]
+        mergedResults[word] = queryResults[word] + googleResults[word]
         url_bucket.extend(mergedResults[word])
         print "\n" + word
         print mergedResults[word]
-    url_bucket = list(set(url_bucket))
-    print("\n"+"\nfinal List"+ ''.join(url_bucket)) 
+    url_bucket = list(set(url_bucket)) 
     return url_bucket
                
 def main():
@@ -154,13 +170,9 @@ def main():
                 if not domain:
                     domain = counter
                     counter = counter+1
-                currentFile = 'results/'+domain.upper()
-
+                currentFile = 'results/'+domain.upper()+'.txt'
                 url_bucket = findInitialUrlsSet(seedUrl)
-
-                if not os.path.exists(currentFile):#we log json here {url,priority,matches}
-                    os.makedirs(currentFile)
-                intelligent_crawl(url_bucket,currentFile+"/log.txt")
+                intelligent_crawl(url_bucket,currentFile)
 
                 #existRobot = linksObj.robotcheck(seedUrl)
                 #crawl(depth,{}, existRobot)

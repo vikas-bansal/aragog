@@ -1,1 +1,4 @@
-http://web.mit.edu/
+http://www.berkeley.edu/
+http://www.harvard.edu/
+http://www.mit.edu/
+http://www.princeton.edu/

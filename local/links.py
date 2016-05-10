@@ -80,7 +80,7 @@ class Links:
                 validAnchorList.append(link)
         return validAnchorList,rejectedList
 
-
+'''
 #test
 links_utility = Links()
 cases=[
@@ -93,3 +93,4 @@ cases=[
 ]
 for url in cases:
     print links_utility.isValid(url)
+'''
